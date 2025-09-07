@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-130" y="170" sprite="coolrash" scale="1.2" camx="250" camy="250" icon="fakemario" color="#B13200" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="a faker/idle" x="-10" y="90" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="a faker/gauche" x="-11" y="93" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="a faker/bas" x="-8" y="92" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="a faker/droit" x="726" y="-155" fps="24" loop="false"/>
+	<anim name="singUP" anim="a faker/haut" x="-9" y="91" fps="24" loop="false"/>
+	<anim name="alt" anim="a faker/ricanement" x="-285" y="-129" fps="24" loop="false"/>
+</character>

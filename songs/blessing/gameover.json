@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Video",
+	"deathMusic": "gameover/BlessingOver",
+	"deathSfx": "gameover/loss_sound",
+	"videoOptions": {
+		"videoName": "blessinggameover",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "",
+	"musicDelay": 0
+}

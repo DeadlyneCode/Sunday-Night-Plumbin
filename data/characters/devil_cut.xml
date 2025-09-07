@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character icon="devilmario" color="#000000">
+	<anim name="anim" anim="Devile mario cutscene"/>
+	<anim name="idle" anim="Devile mario cutscene"/>
+	<anim name="singLEFT" anim="Devile mario cutscene"/>
+	<anim name="singRIGHT" anim="Devile mario cutscene"/>
+	<anim name="singUP" anim="Devile mario cutscene"/>
+	<anim name="singDOWN" anim="Devile mario cutscene"/>
+</character>

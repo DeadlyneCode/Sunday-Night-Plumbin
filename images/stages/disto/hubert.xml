@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="hubert.png" width="2611" height="2885">
+	<SubTexture name="wario idle left0000" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario idle left0001" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario idle left0002" x="1" y="1" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario idle right0000" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario idle right0001" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario idle right0002" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0000" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0001" x="654" y="1" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0002" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0003" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0004" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0005" x="1307" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0006" x="1" y="723" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0007" x="1960" y="1" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0008" x="1960" y="1" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0009" x="1960" y="722" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0010" x="1960" y="1443" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0011" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0012" x="1960" y="2164" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0013" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn left0014" x="1" y="2166" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0000" x="654" y="723" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0001" x="1" y="2166" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0002" x="1" y="2166" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0003" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0004" x="1" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0005" x="654" y="2166" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0006" x="1960" y="1443" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0007" x="1307" y="1" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0008" x="1307" y="2166" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0009" x="1307" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0010" x="1" y="723" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0011" x="1307" y="723" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0012" x="654" y="1" width="650" height="719" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0013" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+	<SubTexture name="wario turn right0014" x="654" y="1445" width="650" height="718" frameX="-0" frameY="-0" frameWidth="650" frameHeight="719"/>
+</TextureAtlas>

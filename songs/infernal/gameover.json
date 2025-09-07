@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Video",
+	"deathMusic": "",
+	"deathSfx": "gameover/loss_sound",
+	"videoOptions": {
+		"videoName": "infernal",
+		"videoHasSound": true,
+		"videoLooping": false
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "",
+	"musicDelay": 1
+}

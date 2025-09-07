@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/immortalold/" name="roblox" zoom="0.5">
+	<sprite x="130" sprite="fire" y="-836" scale="2" type="loop" name="fire"/>
+	<sprite x="684" y="-588" sprite="ciel" scale="4.6" name="ciel">		
+		<property type="float" value="1" name="alpha"/>
+	</sprite>
+	<sprite x="680" y="-534" sprite="ciels" scale="4.6" name="ciels"/>
+	<sprite x="589" y="-98" sprite="solo" scale="3.8" name="solo"/>
+	<girlfriend scrolly="1" x="1279" scrollx="1" y="-98"/>
+	<dad x="607" y="-524" camxoffset="-500" camyoffset="100"/>
+	<boyfriend x="1813" y="-21" camxoffset="-500" camyoffset="-100"/>
+</stage>

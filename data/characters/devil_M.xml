@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="devilmario" camy="50" icon="devilmario" color="#A42E2E" holdTime="10">
+	<anim name="singDOWN" anim="bas0" x="14" y="1"/>
+	<anim name="singLEFT" anim="gauche0" x="173"/>
+	<anim name="singRIGHT" anim="droite0" x="-2"/>
+	<anim name="singUP" anim="haut00" x="56" y="164"/>
+	<anim name="idle" anim="idle0"/>
+	<anim name="singDOWN-alt" anim="basalt" x="19" y="72"/>
+	<anim name="singUP-alt" anim="upalt" x="228" y="218"/>
+	<anim name="singRIGHT-alt" anim="droitealt" x="82" y="140"/>
+	<anim name="singLEFT-alt" anim="gauchealt" x="173" y="77"/>
+	<anim name="idle-alt" anim="idlealt" y="19"/>
+	<anim name="hit" anim="hit" x="1" y="74"/>
+</character>

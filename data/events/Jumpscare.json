@@ -1,0 +1,14 @@
+{
+	"params": [
+        {
+            "name": "time",
+            "type": "String",
+            "defaultValue": "1"
+        },
+        {
+            "name": "shake",
+            "type": "String",
+            "defaultValue": "1"
+        }
+	]
+}

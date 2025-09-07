@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="egg death" icon="victombf" color="#000000" y="550" x="200">
+	<anim name="deathConfirm" anim="victom bf death end" x="50" y="85"/>
+	<anim name="deathLoop" anim="victom bf death loop"/>
+	<anim name="firstDeath" anim="victom bf death beginning" x="49" y="336"/>
+</character>

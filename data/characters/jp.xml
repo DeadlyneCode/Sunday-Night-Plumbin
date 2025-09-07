@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="110" icon="jumpman" camx="-110" y="80" isGF="false" scale="1.5" camy="-520" color="#1D1B69" isPlayer="false" holdTime="6.1" sprite="jp">
+	<anim x="-10" loop="false" y="25" fps="24" anim="idle" name="idle"/>
+	<anim x="25" loop="false" y="15" fps="24" anim="bas0" name="singDOWN"/>
+	<anim x="266" loop="false" y="540" fps="24" anim="haut0" name="singUP"/>
+	<anim x="-26" loop="false" y="52" fps="24" anim="droite0" name="singRIGHT"/>
+	<anim x="728" loop="false" y="339" fps="24" anim="gauche0" name="singLEFT"/>
+</character>

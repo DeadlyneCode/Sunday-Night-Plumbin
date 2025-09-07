@@ -1,0 +1,31 @@
+{
+	"pause": {
+		"composer": "Calitsuki",
+		"image": "catholic mario",
+		"imageChangeData": []
+	},
+	"end": {
+		"fadeColor": "#012258",
+		"startColor": "#012258",
+		"midColor": "#012258",
+		"endColor": "#012258"
+	},
+
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 95,
+	"difficulties": [
+		"normal"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Blessing",
+	"icon": "catholicmario",
+	"name": "blessing",
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "Jesus"
+	}
+}

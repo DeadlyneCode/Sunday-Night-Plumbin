@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="50" y="300" sprite="bf toad" scale="1.1" flipX="true" camx="190" camy="-40" isPlayer="true" icon="bf" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="bas0" x="-3" y="-33"/>
+	<anim name="singUP" anim="haut0" x="-13" y="26"/>
+	<anim name="singRIGHT" anim="droite0" x="-9" y="18"/>
+	<anim name="singLEFT" anim="gauche0" x="44" y="-7"/>
+	<anim name="singDOWNmiss" anim="bas miss0" x="1" y="-35"/>
+	<anim name="singUPmiss" anim="haut miss0" x="-13" y="26"/>
+	<anim name="singRIGHTmiss" anim="droite miss0" x="-11" y="19"/>
+	<anim name="singLEFTmiss" anim="gauche miss0" x="49" y="-6"/>
+</character>

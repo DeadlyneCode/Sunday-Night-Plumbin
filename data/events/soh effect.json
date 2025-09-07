@@ -1,0 +1,31 @@
+{
+	"params": [
+        {
+            "name": "enable",
+            "type": "Bool",
+            "defaultValue": ""
+        },
+        {
+            "name": "bgColor",
+            "type": "DropDown('Black', 'Blue', 'Cyan', 'Gray', 'Green', 'Lime', 'Magenta', 'Orange', 'Pink', 'Purple', 'Red', 'White', 'Yellow')",
+            "defaultValue": "WHIITE"
+        },
+        {
+            "name": "bfColor",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+
+        {
+            "name": "dadColor",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+        {
+            "name": "gfColor",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        }
+        
+	]
+}

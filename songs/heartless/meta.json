@@ -1,0 +1,28 @@
+{
+	"color": "#FFFFFF",
+	"pause": {
+		"composer": "Deadlyne, Gnaw & Calitsuki",
+		"image": "devil_mar",
+		"imageChangeData": []
+	},
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "devilmario",
+	"coopAllowed": true,
+	"end": {
+		"endColor": "#E26000",
+		"midColor": "#C32C4F",
+		"startColor": "#E03D10",
+		"fadeColor": "#D71C27"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Heartless",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 196,
+	"customValues": {
+		"codename": "Coucher de soleil"
+	}
+}

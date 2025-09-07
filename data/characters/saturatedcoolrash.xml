@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-130" y="170" sprite="saturatedcoolrash" scale="1.2" camx="50" camy="250" icon="saturatedmario" color="#82260F" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="pose/idle" x="-10" y="90" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="pose/left" x="49" y="186" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="pose/down" x="48" y="96" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="pose/right" x="-31" y="168" fps="24" loop="false"/>
+	<anim name="singUP" anim="pose/up" x="2" y="454" fps="24" loop="false"/>
+</character>

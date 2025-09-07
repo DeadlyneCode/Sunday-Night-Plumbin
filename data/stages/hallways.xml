@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/hallways/" startCamPosY="-100" startCamPosX="1050" name="hallways" zoom="0.68">
+	<sprite x="-370" sprite="sol" y="100" scale="0.9" name="sol"/>
+	<dad x="620" scale="0.7" y="-870" camyoffset="-20"/>
+	<sprite x="-390" sprite="effect" y="-960" alpha="0.4" scale="0.8" name="effect"/>
+	<sprite x="869" sprite="jambe" y="160" scale="0.7" name="jambe"/>
+	<boyfriend camxoffset="-400" x="576.5" camyoffset="90" y="-295" scale="0.7"/>
+	<girlfriend/>
+	<solid name="video" x="0" y="0" width="0" height="0" color="#FFFFFF"/>*
+</stage>

@@ -1,0 +1,40 @@
+{
+	"params": [
+        {
+            "name": "ease",
+            "type": "DropDown('linear','back', 'bounce', 'circ', 'cube', 'sine', 'quint', 'quart', 'quad', 'expo', 'elastic')",
+            "defaultValue": "sine"
+        },
+
+        {
+            "name": "in",
+            "type": "DropDown('In', 'InOut', 'Out')",
+            "defaultValue": "Out"
+        },
+        
+        {
+            "name": "time",
+            "type": "String",
+            "defaultValue": "1"
+        },
+
+        {
+            "name": "alpha",
+            "type": "String",
+            "defaultValue": "1"
+        },
+
+        {
+            "name": "color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+
+        {
+            "name": "blend",
+            "type": "String",
+            "defaultValue": "0"
+        }
+
+	]
+}

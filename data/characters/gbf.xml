@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="350" sprite="gbf" scale="1.1" flipX="true" isPlayer="true" icon="bf-retro" holdTime="11">
+	<anim name="idle" anim="idle" x="-22" y="-93" fps="24" loop="false"/>
+	<anim name="singUP" anim="haut" x="145" y="132" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="droite" x="316" y="142" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="gauche" x="212" y="135" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas" x="252" y="158" fps="24" loop="false"/>
+	<anim name="bye" anim="bye" x="456" y="328" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

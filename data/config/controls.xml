@@ -1,0 +1,5 @@
+<controls>
+    <category name="SNP CONTROLS">
+        <control name="dodge" saveName="dodge" menuName="DODGE" keyP1="SPACE" keyP2=""/>
+    </category>
+</controls>

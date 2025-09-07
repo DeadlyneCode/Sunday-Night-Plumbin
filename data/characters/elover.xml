@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="100" sprite="elhgameover" icon="elover">
+	<anim name="firstDeath" anim="BF dies"/>
+	<anim name="deathLoop" anim="BF Dead Loop" x="5" loop="true"/>
+	<anim name="deathConfirm" anim="BF Dead confirm"/>
+</character>

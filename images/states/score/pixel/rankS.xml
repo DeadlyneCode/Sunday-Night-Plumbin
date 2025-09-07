@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="spritesheet.png">
+	<SubTexture name="rankS0000" x="0" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0001" x="0" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0002" x="27" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0003" x="27" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0004" x="54" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0005" x="81" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0006" x="81" y="0" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0007" x="0" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0008" x="0" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0009" x="27" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0010" x="27" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0011" x="54" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0012" x="54" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0013" x="81" y="95" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0014" x="0" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0015" x="0" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0016" x="0" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0017" x="0" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0018" x="27" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0019" x="27" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0020" x="27" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0021" x="54" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0022" x="54" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0023" x="54" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0024" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0025" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0026" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0027" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0028" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0029" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0030" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0031" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+	<SubTexture name="rankS0032" x="81" y="190" width="27" height="95" frameX="-6" frameY="-2" frameWidth="40" frameHeight="100" />
+</TextureAtlas>

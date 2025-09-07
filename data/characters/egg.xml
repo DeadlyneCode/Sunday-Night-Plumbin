@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-450" sprite="THE_EGG" scale="1.2" camx="200" camy="150" icon="egg" holdTime="6.1" isGF="false">
+	<anim name="singLEFT" anim="Left" x="-84" y="-208" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down" x="-108" y="-225" fps="24" loop="false"/>
+	<anim name="singUP" anim="Up" x="-108" y="-167" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right" x="-106" y="-206" fps="24" loop="false"/>
+	<anim name="idle" anim="Idle" x="-100" y="-160" fps="24" loop="true"/>
+	<anim name="die" anim="die" x="214" y="152" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

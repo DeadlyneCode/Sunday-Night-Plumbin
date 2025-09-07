@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="boyfriendd" flipX="true" isPlayer="true" icon="bf-retro" color="#30B0D1">
+	<anim name="idle" anim="BF idle dance" x="-5" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="-46" y="31" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="2" y="-7" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-46" y="-6" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-17" y="-49" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-37" y="27" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="1" y="20" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-39" y="23" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-12" y="-19" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="bas-alt" x="-20" y="-29" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="haut-alt" x="-35" y="16" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="droite-alt" x="-47" y="-4" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="gauche-alt" x="-2" y="-5" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

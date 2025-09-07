@@ -1,0 +1,242 @@
+<lang name="English">
+    <!-- Warning Menu -->
+    <warning0_title value="Languages"/>
+    <warning0_desc value="This mod supports multiple languages to play with."/>
+    <warning1_title value="Flashing Lights Warning!"/>
+    <warning1_desc value="The following content contains flashing lights and saturated colors."/>
+    <warning2_title value="Settings"/>
+    <warning2_desc value="If you get performance issues while playing, you should disable shaders in the options."/>
+    
+    <!-- Main Menu -->
+    <mainmenu0 value="Play"/>
+    <mainmenu1 value="Power Ups"/>
+    <mainmenu2 value="Credits"/>
+    <mainmenu3 value="Options"/>
+
+    <!-- Freeplay -->
+    <freeplay_score value="Score: {0}"/>
+    <freeplay_misses value="Misses: {0}"/>
+    <freeplay_hes_waiting value="He's waiting for you"/>
+
+    <freeplay_intro_dialogue1 value="My greetings #Blue one#"/>
+    <freeplay_intro_dialogue2 value="As you can see here,"/>
+    <freeplay_intro_dialogue3 value="Our dear friend Mario has vanished"/>
+    <freeplay_intro_dialogue4 value="If you want to know"/>
+    <freeplay_intro_dialogue5 value="What my intentions are and..."/>
+    <freeplay_intro_dialogue6 value="Save *our* favorite mustached plumber"/>
+    <freeplay_intro_dialogue7 value="You'll first have to deal with some of my"/>
+    <freeplay_intro_dialogue8 value="*Monstrous*"/>
+    <freeplay_intro_dialogue9 value="*Monstrous Friends*"/>
+    <freeplay_intro_dialogue10 value="Hidden in these beautiful paintings,"/>
+    <freeplay_intro_dialogue11 value="And then..."/>
+    <freeplay_intro_dialogue12 value="You will join me on your"/>
+    <freeplay_intro_dialogue13 value="You will join me on your *Final*"/>
+    <freeplay_intro_dialogue14 value="You will join me on your *Final Journey*"/>
+    <freeplay_intro_dialogue15 value="In my world,"/>
+    <freeplay_intro_dialogue16 value="In my world, *Luck won't save you.*"/>
+
+    <freeplay_dp_dialogue1 value="Well"/>
+    <freeplay_dp_dialogue2 value="I think the time has come"/>
+    <freeplay_dp_dialogue3 value="You are very insightful, I'll give you that."/>
+    <freeplay_dp_dialogue4 value="But remember..."/>
+    <freeplay_dp_dialogue5 value="*Every soul can be shattered...*"/>
+    <freeplay_dp_dialogue6 value="Come."/>
+    <freeplay_dp_dialogue7 value="*Show me you are worth tearing into little pieces*"/>
+
+    <freeplay_final value="We congratulate you on your victories.\nBut the evil is only just surging, this story is far from over...\n\nIn the meantime, bonus tracks are available for you."/>
+
+    <!-- Power Ups -->
+    <powerup_title value="Power Up Menu"/>
+    <powerup_current value="Current Power Up: {0}"/>
+    <powerup_scoremult value="Score Multiplier: {0}x"/>
+
+    <powerup0_name value="None"/>
+    <powerup0_desc value="No Effect"/>
+    <powerup1_name value="Fire Flower"/>
+    <powerup1_desc value="Scroll Speed is increased by x1.5"/>
+    <powerup2_name value="Ice Flower"/>
+    <powerup2_desc value="Scroll Speed is decreased by x0.5"/>
+    <powerup3_name value="Metal Cap"/>
+    <powerup3_desc value="You cannot take any damage"/>
+    <powerup4_name value="Poison Mushroom"/>
+    <powerup4_desc value="If you miss a note you die"/>
+    <powerup5_name value="Retro Mushroom"/>
+    <powerup5_desc value="So Retro....."/>
+
+    <!-- Pause Menu -->
+    <pause_resume value="Resume"/>
+    <pause_restart value="Restart Song"/>
+    <pause_options value="Options"/>
+    <pause_powerup value="Power Up"/>
+    <pause_exit value="Exit to menu"/>
+    <pause_charter value="Exit to charter"/>
+
+    <pause_disto_resume value="Come Back."/>
+    <pause_disto_restart value="Try Again"/>
+    <pause_disto_options value="Options"/>
+    <pause_disto_powerup value="Cheater"/>
+    <pause_disto_exit value="Weak"/>
+    <pause_disto_charter value="Chart is too hard?"/>
+
+    <robloxpause00 value="Players"/>
+    <robloxpause01 value="Settings"/>
+    <robloxpause02 value="Power Ups"/>
+
+    <robloxpause10 value="Leave Game"/>
+    <robloxpause11 value="Reset Character"/>
+    <robloxpause12 value="Resume Game"/>
+
+    <!-- Result Screen -->
+    <results_title value="RESULTS!"/>
+    <results_score value="SCORE: {0}"/>
+    <results_misses value="MISSES: {0}"/>
+    <results_exit value="Exit"/>
+    <results_retry value="Retry"/>
+
+    <!-- Gallery -->
+    <gallery_author value="By {0}"/>
+    
+    <!-- HUD Texts and Others -->
+    <hud_text value="S: {0} | M: {1}"/>
+    <robloxhud_text_score value="Score"/>
+    <robloxhud_text_misses value="Misses"/>
+    <yt_hud_text value="Score: {0} | Misses: {1}"/>
+
+    <fatal_play_here value="You are playing here!"/>
+
+    <iceberg_speak_1 value="Here I go!"/>
+    <iceberg_speak_2 value="You think this is fun?"/>
+    <iceberg_speak_3 value="You gotta be coo coo crazy!"/>
+    <iceberg_speak_4 value="Fire!!"/>
+
+    <blessing_speak_1 value="Do you like Jesus?"/>
+    <blessing_speak_2 value="Have you accepted Jesus into your life?"/>
+    <blessing_speak_3 value="Jesus loves every one of us"/>
+    <blessing_speak_4 value="Get informed by Jesus our Lord"/>
+    <blessing_speak_5 value="Jesus accepts all sinners"/>
+
+    <betrayed_dodge_bind value="Your Dodge Keybind is *{0}*"/>
+    
+    <heartless_speak1 value="Then"/>
+    <heartless_speak2 value="Then face"/>
+    <heartless_speak3 value="Then face me."/>
+    <heartless_speak4 value="ONE"/>
+    <heartless_speak5 value="ONE LAST"/>
+    <heartless_speak6 value="ONE LAST TIME!"/>
+
+    <heartless_bulletwarning1 value="PRESS *{0}* WHEN THE BULLET IS FULL"/>
+
+    <!-- LOADING SCREENS!! -->
+    <immortal_intro value="Don't be a Daredevil."/>
+
+    <betrayed_intro value="Watch out for the fireballs"/>
+    <betrayed_intro2 value="Be vigilant, things live beneath your feet."/>
+
+    <cataclyscmic_intro value="Familiar Faces don't mean safety..."/>
+    <cataclyscmic_intro2 value="Never believe things in odd places"/>
+    <cataclyscmic_intro3 value="Innocence doesn't get you FAR."/>
+
+    <cosmic_copy_intro value="Enjoy the present moment"/>
+    <cosmic_copy_intro2 value="Super Funkin' Galaxy Reference????"/>
+
+    <infernal_intro value="He hates you."/>
+    <infernal_intro2 value="Pls subcribe for more"/>
+    <infernal_intro3 value="The freakiest dude in the mod"/>
+
+    <iceberg_intro value="The goal is simple: Run."/>
+    <iceberg_intro2 value="Every copy of Sunday Night Plumbin' is personalized."/>
+
+    <disturbing_presence_intro value="Face me."/>
+    <disturbing_presence_intro2 value="Good Luck."/>
+    <disturbing_presence_intro3 value="You're no hero."/>
+    <disturbing_presence_intro4 value="Let's end this nonsense."/>
+
+    <cracked_egg_intro value="You can't make omelettes without cracking a few eggs."/>
+    <cracked_egg_intro2 value="You go to it. It never comes to you"/>
+
+    <blessing_intro value="The Lord works in mysterious ways"/>
+
+    <golden_hammer_intro value="NYC always has to deal with things like these"/>
+
+    <fatal_rap_intro value="Nuclear weapons are always fatal"/>
+
+    <earache_intro value="Watch out for the maltigis"/>
+    <earache_intro2 value="AAAAAAAAAAAAAAGGHHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGHHHHHGHGGHHHHHHHGAHHHHHHHHHHHHHH"/>
+
+    <heartless_intro value="A new reign is upon us. Kneel."/>
+    <heartless_intro2 value="The vulnerable state our kingdom is in now only invites attack."/>
+
+    <silent_intro value="You can't find your way, asking for directions could help?"/>
+    <silent_intro2 value="You've seen this corner before."/>
+    <silent_intro3 value="SHHHH! PLEASE, WALK QUIETLY IN THE HALLWAY!"/>
+
+    <poltergeist_intro value="There is one more ghost to be faced"/>
+    <poltergeist_intro2 value="Remnants come in many forms."/>
+    <poltergeist_intro3 value="Lost and alone, with no elements, in a mansion that feels never-ending."/>
+
+    <!-- Options -->
+    <optionsTree.controls-name value="Controls"/>
+    <optionsTree.gameplay-name value="Gameplay"/>
+    <optionsTree.appearance-name value="Appearance"/>
+    <optionsTree.snpOptions-name value="SNP Options"/>
+    <optionsTree.back-name value="Back"/>
+
+    <snpOptions_generalSettings_title value="General Settings"/>
+    <snpOptions_generalSettings_desc value="Settings related to pretty much everything in the mod"/>
+    <snpOptions_language_title value="Language"/>
+    <snpOptions_language_desc value="Language in which the mod is going to be"/>
+    <snpOptions_musicType_title value="Music Variation"/>
+    <snpOptions_musicType_desc value="The variation of the main menu song that will play"/>
+    <snpOptions_musicType_default value="Default"/>
+    <snpOptions_musicType_alt value="Alt"/>
+    <snpOptions_warningState_title value="Startup Warning"/>
+    <snpOptions_warningState_desc value="Enable / Disable the warnings" />
+
+    <snpOptions_shaderSettings_title value="Shader Settings"/>
+    <snpOptions_shaderSettings_desc value="Adjust them for the best performance"/>
+    <snpOptions_glowShaders_title value="Glow Shaders"/>
+    <snpOptions_glowShaders_desc value="Enable/Disable Glow Shaders"/>
+    <snpOptions_heatShaders_title value="Heat Shaders"/>
+    <snpOptions_heatShaders_desc value="Enable/Disable Heatwave Shaders"/>
+    <snpOptions_saturationShaders_title value="Saturation Shaders"/>
+    <snpOptions_saturationShaders_desc value="Enable/Disable Saturation Shaders"/>
+    <snpOptions_tvShaders_title value="TV Shaders"/>
+    <snpOptions_tvShaders_desc value="Enable/Disable TV Shaders"/>
+    <snpOptions_blurShaders_title value="Blur Shaders"/>
+    <snpOptions_blurShaders_desc value="Enable/Disable Blur Shaders"/>
+
+    <snpOptions_gameplaySettings_title value="Gameplay Settings"/>
+    <snpOptions_gameplaySettings_desc value="Settings related to gameplay (yeah really)"/>
+    <snpOptions_particles_title value="Particles"/>
+    <snpOptions_particles_desc value="Enable/Disable Particles" />
+    <snpOptions_flashing_title value="Camera Flashes"/>
+    <snpOptions_flashing_desc value="Enable/Disable Camera Flashes" />
+    <snpOptions_waitTimer_title value="Wait Timer"/>
+    <snpOptions_waitTimer_desc value="Shows the time until you have to play a note" />
+    
+    <snpOptions_findLuigi_title value="Find Luigi Settings"/>
+    <snpOptions_findLuigi_desc value="You found Luigi"/>
+    <snpOptions_foundTheLuigi_title value="Found Luigi"/>
+    <snpOptions_foundTheLuigi_desc value="Disable to bring back the minigame"/>
+    <snpOptions_alwaysLuigi_title value="Always Find Luigi"/>
+    <snpOptions_alwaysLuigi_desc value="Enable to always have Find Luigi when going into the editors"/>
+
+    <snpOptions_toggleStatus_on value="On"/>
+    <snpOptions_toggleStatus_off value="Off"/>
+    <snpOptions_shaderConsuption_low value="Low consumption"/>
+    <snpOptions_shaderConsuption_medium value="Medium consumption"/>
+    <snpOptions_shaderConsuption_high value="High consumption"/>
+
+    <!-- Startup Cutscene -->
+    <cutscene_text1 value="Our story began not so long ago, balance and prosperity\rwere within the Mushroom Kingdom,\rwhich had experienced many adventures and various troubles over time…\rAnd at first glance, there were no great threats on the horizon,\rno princesses to rescue, no stars to go looking for..." />
+    <cutscene_text2 value="Things calmed down over time, which was almost becoming abnormal.\rHowever, this no longer worried our protagonists, too busy\ncelebrating in the palace.\rThe adventures would surely resume another time,\rbut at the moment there was no reason to agonize." />
+    <cutscene_text3 value="This attraction was more than just visual, as the black hole began\rto aspirate everyone in its path, including Mario and Luigi,\rwho had never been so surprised by an unknown threat.\nThis wasn't a move by Bowser, Antasma, or Princess Shroob...\rA new evil had arisen, and it struck unpredictably, and no one could have\ranticipated it. Whatever constituted this macabre masquerade,\rit had succeeded." />
+    <cutscene_text4 value="And here we are,\rbalance and prosperity were within the Mushroom Kingdom,\rbut what good is it if no one is there to celebrate?\nAll the inhabitants have been aspirated into the black hole, there is\rnothing left except the buildings that once accommodated our adventurers.\nAll of which is now nothing but a remnant with nothing\rbut emptiness as its only resident." />
+    <cutscene_text5 value="Our two heroes, GF and BF, arrived shortly after the kingdom's\rdisappearance, following a well-deserved vacation. Their smiles\rfaded after noticing the absence of people in the\rMushroom Kingdom. They then wondered where they had all gone,\rsince there were no surprise parties planned.\nAt least, that's what they thought, because the castle had\rplenty in store for them now. It gave off a strange feeling..." />
+    <cutscene_text6 value="Our two protagonists couldn't help but investigate this story\rto see what happened to their friends. And here we are again,\rtwo heroes facing an evil they don't know,\rmistakes they didn't make but that they will have to repair,\rthe cycle of adventure resumes its course in the Mushroom Kingdom!" />
+
+    <!-- Ending Special Thank You -->
+    <credits1 value="You overcame all the obstacles of Sunday Night Plumbin !"/>
+    <credits2 value="4 years this project has existed.\nSunday Night Plumbin', an FNF mod made out of passion for the fandom and for all the creations around the famous mustached plumber.\nThe whole dev team put their hearts into it, because we love FNF and Mario.\nIn fact, Silent, Heartless and Poltergeist were created without the director even knowing, by part of the original team who simply wanted to have fun and share their passion (this was revealed only a week before the mod's release).\nCreate what you like, have fun, and don't be afraid to try new things, that's what truly matters...\nThank you so much for playing our game, and see you next time.\n\n\n-The Plumbers / SNP Dev Team"/>
+    <credits3 value="Check the Retro Mushroom in the Power Up menu. You may have missed something."/>
+</lang>

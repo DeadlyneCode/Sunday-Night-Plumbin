@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jumboy-dead.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="firstDeath0000" x="0" y="0" width="124" height="156" frameX="-62" frameY="-54" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="firstDeath0001" x="124" y="0" width="156" height="124" frameX="-54" frameY="-70" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="firstDeath0002" x="280" y="0" width="124" height="156" frameX="-62" frameY="-54" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="firstDeath0003" x="0" y="156" width="156" height="116" frameX="-38" frameY="-70" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="deathLoop0000" x="156" y="156" width="148" height="92" frameX="-46" frameY="-94" frameWidth="256" frameHeight="256"/>
+</TextureAtlas>

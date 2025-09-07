@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gf_snp2" scale="1.1" icon="gf" color="#A5004D" isGF="true">
+	<anim name="danceLeft" anim="idle" x="0" y="-9" fps="20" loop="false" indices="0..16"/>
+	<anim name="danceRight" anim="idle" x="0" y="-9" fps="20" loop="false" indices="17..34"/>
+	<anim name="danceLeft-alt" anim="Heybeats" x="-12" y="-14" fps="24" loop="false"/>
+	<anim name="danceRight-alt" anim="Heybeats" x="-13" y="-14" fps="30" loop="false"/>
+	<anim name="hi" anim="Hi" x="-19" y="-10" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

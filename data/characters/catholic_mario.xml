@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="30" holdTime="6.1" camx="-130" icon="catholicmario" color="#EB0F29" sprite="catholic_mario">
+	<anim name="idle" anim="idle" fps="24" loop="false" x="0" y="0"/>
+	<anim name="singLEFT" anim="left" fps="24" loop="false" x="107" y="0"/>
+	<anim name="singDOWN" anim="down" fps="24" loop="false" x="1" y="69"/>
+	<anim name="singUP" anim="up" fps="24" loop="false" x="1" y="106"/>
+	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="32" y="0"/>
+</character>

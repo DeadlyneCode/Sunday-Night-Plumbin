@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Scripted",
+	"deathMusic": "gameover/gameover jp",
+	"deathSfx": "gameoverjpSFX",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/jp.hx",
+	"musicDelay": 1
+}

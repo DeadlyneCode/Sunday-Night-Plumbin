@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="110" icon="demonic" camx="-190" y="80" isGF="false" camy="130" color="#FE0000" isPlayer="false" holdTime="10.1" sprite="demonic_mario">
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="29" loop="false" y="-169" fps="24" anim="bas0" name="singDOWN"/>
+	<anim x="196" loop="false" y="30" fps="24" anim="haut0" name="singUP"/>
+	<anim x="365" loop="false" y="237" fps="24" anim="droite0" name="singRIGHT"/>
+	<anim x="164" loop="false" y="-100" fps="24" anim="gauche0" name="singLEFT"/>
+</character>

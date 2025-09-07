@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/amalgame/" zoom="1.2" name="amalgame">
+	<combo x="-20166" y="8987"/>
+	<gf/>
+	<sprite x="-929" y="-406" sprite="fondP2" name="fondP2"/>
+	<sprite scrolly="0.5" x="-367" y="-116" sprite="light" scrollx="0.5" name="light1" alpha="0"/>
+	<sprite x="-411" scrolly="0.6" sprite="pilarP2" y="-190" zoomfactor="0.7" scale="0.9" name="pilarP2" scrollx="0.6"/>
+	<sprite x="-887.5" y="948" sprite="floorP2" name="floorP2"/>
+	<sprite scrolly="0.9" x="768" y="-110" sprite="light" scrollx="0.9" name="light4" alpha="0"/>
+	<sprite x="-235.5" y="-57" sprite="bg" alpha="1" scale="2" name="bg"/>
+	<sprite x="-803" scrolly="0.9" sprite="wall" y="-104" alpha="0" name="wall" scrollx="0.9"/>
+	<sprite x="-803" scrolly="0.9" sprite="mid" y="-104" alpha="0" name="mid" scrollx="0.9"/>
+	<sprite x="-803" sprite="main" y="-104" alpha="0" name="main"/>
+	<dad x="404.5" y="52"/>
+	<bf x="-320" y="-90.5"/>
+	<char x="334" y="129" name="atoad2"/>
+	<sprite scrolly="1.1" x="111" y="-116" sprite="light" scrollx="1.1" name="light2" alpha="0"/>
+	<sprite scrolly="1.1" x="-350" y="-123" sprite="light" scrollx="1.1" name="light3" alpha="0" scaley="2.4" scalex="0.4"/>
+	<sprite x="1043" scrolly="1.4" sprite="plarp2" y="-326" scale="2.5" zoomfactor="1.2" name="plarp2" scrollx="1.4"/>
+	<sprite x="-200.5" sprite="effectb" y="-225.5" scale="1.75" name="effectb"/>
+</stage>

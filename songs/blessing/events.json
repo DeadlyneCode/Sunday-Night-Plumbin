@@ -1,0 +1,223 @@
+{
+	"events": [
+		{
+			"params": [
+				"0.1",
+				false,
+				true,
+				false,
+				true,
+				true,
+				"back",
+				"In"
+			],
+			"name": "Bar Cinematic",
+			"time": 0
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 10105.2631578947
+		},
+		{
+			"params": [
+				"1",
+				false,
+				false,
+				false,
+				false,
+				false,
+				"back",
+				"In"
+			],
+			"name": "Bar Cinematic",
+			"time": 10105.2631578947
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 15157.8947368421
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 20210.5263157895
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 25263.1578947368
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 30315.7894736842
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 40421.0526315789
+		},
+		{
+			"params": [
+				"1",
+				true,
+				true,
+				true,
+				true,
+				true,
+				"back",
+				"In"
+			],
+			"name": "Bar Cinematic",
+			"time": 50210.5263157895
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 50526.3157894737
+		},
+		{
+			"params": [
+				"sine",
+				"InOut",
+				"0.1",
+				"0.45"
+			],
+			"name": "Cam Zoom",
+			"time": 50526.3157894737
+		},
+		{
+			"params": [
+				"Heaven",
+				"3",
+				"",
+				"",
+				"camGame",
+				true,
+				true,
+				true,
+				"",
+				false,
+				false
+			],
+			"time": 50526.3157894737,
+			"name": "video event"
+		},
+		{
+			"params": [
+				"sine",
+				"InOut",
+				"30",
+				"0.6"
+			],
+			"name": "Cam Zoom",
+			"time": 50684.2105263158
+		},
+		{
+			"params": [
+				"1",
+				false,
+				false,
+				false,
+				false,
+				false,
+				"back",
+				"In"
+			],
+			"name": "Bar Cinematic",
+			"time": 72631.5789473684
+		},
+		{
+			"params": [
+				false,
+				-1,
+				4,
+				"camHUD"
+			],
+			"name": "Camera Flash",
+			"time": 72631.5789473684
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 77842.1052631579
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 82736.8421052632
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 87789.4736842105
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 92842.1052631579
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 97894.7368421053
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 102947.368421053
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 108000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 113368.421052632
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 118421.052631579
+		}
+	]
+}

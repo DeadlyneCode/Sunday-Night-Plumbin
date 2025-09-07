@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="280" sprite="bfamatoad" flipX="true" camx="80" camy="-40" isPlayer="true" icon="bf" color="#60C5ED" holdTime="7" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas0" x="1" y="-22" fps="24" loop="false"/>
+	<anim name="singUP" anim="haut0" x="16" y="30" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="droite0" x="-20" y="-10" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="gauche0" x="72" y="0" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

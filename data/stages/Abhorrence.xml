@@ -1,0 +1,103 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.125" name="Abhorrence" folder="stages/betrayed/">
+	<sprite name="bg"  scale="1.3"  x="-590" y="575" scrollx="0.75" scrolly="0.75"   sprite="fond" >
+	<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="feu1" x="-1000" y="813" scrollx="0.75" scrolly="0.75"  sprite="feu" >	
+		<anim name="feu" anim="fire0" loop="true" fps="30"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="feu2" x="-115" y="813" scrollx="0.75" scrolly="0.75"  sprite="feu" >	
+		<anim name="feu" anim="fire0" loop="true" fps="30"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="feu3" x="825" y="835" scrollx="0.75" scrolly="0.75"  sprite="feu" >	
+		<anim name="feu" anim="fire0" loop="true" fps="30"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="feu4" x="1665" y="835" scrollx="0.75" scrolly="0.75"  sprite="feu" >	
+		<anim name="feu" anim="fire0" loop="true" fps="30"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="ff4" x="-300" y="400"  sprite="flames" scale="1.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="feu" anim="fire" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="ff5" x="800" y="300"  sprite="flames" scale="1.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="feu" anim="fire" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo" x="-1500" y="650"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo1" x="1875" y="800"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75" flipX="true">
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo2" x="-1700" y="950"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo3" x="2100" y="1100"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo4" x="-2000" y="1250"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo5" x="2000" y="1400"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="boo6" x="-1300" y="1550"  sprite="boo" scale="0.7" scrollx="0.75" scrolly="0.75"   >
+		<anim name="boo" anim="boo" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="pont"  scale="1.4"  x="-590" y="1850"   sprite="pont" >
+	<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="end"  scalex="1"  scaley="1"  x="330" y="1250"   sprite="end" >
+		<property name="alpha" type="float" value="0"/>
+		</sprite>
+
+	<dad x="-200" y="1400" camxoffset="450" />
+	<boyfriend x="625" y="1375" camxoffset="-450" camyoffset="-75"/>
+
+	<sprite name="ff1" x="-750" y="200"  sprite="flames" scale="3" >
+		<anim name="feu" anim="fire" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="ff2" x="250" y="500"  sprite="flames" scale="3" >
+		<anim name="feu" anim="fire" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="ff3" x="1250" y="600"  sprite="flames" scale="3" >
+		<anim name="feu" anim="fire" loop="true" fps="24"/>
+		<property name="alpha" type="float" value="1"/>
+	</sprite>
+
+	<sprite name="lum"  scalex="3.75"  scaley="3.35"  x="-610" y="900"   sprite="lum" >
+	<property name="alpha" type="float" value="0.4"/>
+	<property name="blend" type="int" value="0" />
+	</sprite>
+
+</stage>

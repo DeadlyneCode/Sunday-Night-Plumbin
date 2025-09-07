@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="-120" icon="mariovictim1" color="#9E2449" sprite="victim_mario">
+	<anim name="idle" anim="idle" fps="24" loop="true" x="0" y="0"/>
+	<anim name="singDOWN" anim="down" fps="24" loop="false" x="-10" y="-87"/>
+	<anim name="singUP" anim="up" fps="24" loop="false" x="62" y="17"/>
+	<anim name="singLEFT" anim="left" fps="24" loop="false" x="47" y="-18"/>
+	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="11" y="-2"/>
+	<anim name="pousse" anim="anim" fps="24" loop="false" x="62" y="-9"/>
+</character>

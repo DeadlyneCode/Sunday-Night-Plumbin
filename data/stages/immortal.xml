@@ -1,0 +1,193 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/immortal/" name="immortal" zoom="0.5">
+	<sprite scrolly="0.75" x="1000" sprite="cielf" y="-500" scale="3" scrollx="0.75" name="cielf">
+		
+	
+		<property type="float" value="0.0000001" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite scrolly="0.75" x="900" sprite="montagnef" y="340" scale="1.4" scrollx="0.75" name="montagnef">
+		
+	
+		<property type="float" value="0.0000001" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="900" sprite="lumb" y="-300" scalex="3" name="lumb" scaley="1.3">
+		
+	
+		<property type="float" value="0" name="alpha"/>
+		
+	
+		<property type="int" value="0" name="blend"/>
+		
+	
+	</sprite>
+	<sprite scrolly="0.9" x="1000" sprite="ciel" y="-400" scale="3" scrollx="0.75" name="ciel">
+		
+	
+		<property type="float" value="1" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite scrolly="0.9" x="900" sprite="montagne" y="440" scale="1.4" scrollx="0.75" name="montagne">
+		
+	
+		<property type="float" value="1" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="100" sprite="sol" y="125" scale="1.5" name="sol">
+		
+	 
+		<property type="float" value="1" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="2800" sprite="fire" y="-400" scale="2" name="fire6">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="-800" sprite="fire" y="0" scale="2" name="fire3">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="500" sprite="fire" y="1260" scale="4" name="fire4">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="100" sprite="solf" y="125" scale="1.5" name="solf">
+		 
+	
+		<property type="float" value="0" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="-150" sprite="cbg" y="100" scale="1.3" name="cbg">
+		
+	
+		<property type="float" value="0.000001" name="alpha"/>
+		
+	
+	</sprite>
+	<girlfriend scrolly="1" x="1450" camxoffset="-500" y="350" camyoffset="300" scale="0.75" scrollx="1"/>
+	<character scale="0.75" x="1500" y="350" name="zombie_toad"/>
+	<dad x="500" y="600"/>
+	<boyfriend x="1715" y="557"/>
+	<sprite x="2870" sprite="solov" y="300" scale="1.5" name="solov"/>
+	<sprite x="2870" sprite="solfov" y="345" scale="1.5" name="solfov">
+		 
+	
+		<property type="float" value="0" name="alpha"/>
+		
+	
+	</sprite>
+	<sprite x="3100" sprite="fire" y="-200" scale="4" name="fire2">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+		
+		<property type="float" value="0.79" name="scrollFactor.x"/>
+		
+		
+		<property type="float" value="0.79" name="scrollFactor.y"/>
+		
+	
+	</sprite>
+	<sprite x="-1200" sprite="fire" y="1000" scale="4" name="fire5">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+		
+		<property type="float" value="0.79" name="scrollFactor.x"/>
+		
+		
+		<property type="float" value="0.79" name="scrollFactor.y"/>
+		
+	
+	</sprite>
+	<sprite x="0" sprite="fire" y="-900" scalex="7" name="firetransition" scaley="3">
+			
+		
+		<anim loop="true" fps="24" anim="fire" name="fire"/>
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+		
+		<property type="float" value="0" name="scrollFactor.x"/>
+		
+		
+		<property type="float" value="0" name="scrollFactor.y"/>
+		
+	
+	</sprite>
+	<sprite x="900" sprite="lum" y="-550" scale="1.5" name="lum">
+		
+	
+		<property type="float" value="1" name="alpha"/>
+		
+	
+		<property type="int" value="0" name="blend"/>
+		
+	
+	</sprite>
+	<sprite x="900" sprite="lumf" y="-550" scale="1.5" name="lumf">
+		
+	
+		<property type="float" value="0.0000001" name="alpha"/>
+		
+	
+		<property type="int" value="0" name="blend"/>
+		
+	
+	</sprite>
+	<sprite x="900" sprite="lumb" y="200" scalex="3" name="lumb2" scaley="1.3">
+		
+	
+		<property type="int" value="0" name="blend"/>
+		
+	
+	</sprite>
+	<solid x="0" y="0" width="1" color="0x000000" height="1" name="white">
+		
+		
+		<property type="float" value="0" name="scrollFactor.x"/>
+		
+		
+		<property type="float" value="0" name="scrollFactor.y"/>
+		
+		
+		<property type="float" value="0.0000001" name="alpha"/>
+		
+	
+	</solid>
+	<combo/>
+</stage>

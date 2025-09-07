@@ -1,0 +1,9 @@
+{
+	"params": [
+		{
+            "name": "boule",
+            "type": "Bool",
+            "defaultValue": "camGame"
+        }
+	]
+}

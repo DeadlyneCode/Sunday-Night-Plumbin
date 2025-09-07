@@ -1,0 +1,39 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "wario",
+	"difficulties": [
+		"normal"
+	],
+	"parsedColor": -7179779,
+	"end": {
+		"endColor": "#DF6400",
+		"midColor": "#FF9B34",
+		"startColor": "#F68108",
+		"fadeColor": "#973B00"
+	},
+	"customValues": {
+		"codename": "Montagne enneigee"
+	},
+	"color": "#9271FD",
+	"name": "Iceberg",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Iceberg",
+	"beatsPerMeasure": 4,
+	"pause": {
+		"composer": "Deadlyne & Dislamp",
+		"imageChangeData": [
+			{
+				"step": 449,
+				"newImage": "wariofun"
+			},
+			{
+				"step": 511,
+				"newImage": "wario"
+			}
+		],
+		"image": "wario"
+	},
+	"needsVoices": true,
+	"bpm": 95
+}

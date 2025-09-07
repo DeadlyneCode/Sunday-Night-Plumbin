@@ -1,0 +1,247 @@
+<lang name="Deutsch">
+    <!-- Warning Menu -->
+    <warning0_title value="Sprachen"/>
+    <warning0_desc value="Dieses Mod unterstützt mehrere auswählbare Sprachen."/>
+    <warning1_title value="Warnung vor grellem Licht!"/>
+    <warning1_desc value="Der folgende Inhalt enthält grelles Licht und gesättigte Farben."/>
+    <warning2_title value="Optionen"/>
+    <warning2_desc value="Wenn Sie beim Spielen Leistungsprobleme haben, sollten Sie die Shader in den Optionen deaktivieren."/>
+    
+    <!-- Main Menu -->
+    <mainmenu0 value="Spielen"/>
+    <mainmenu1 value="Gegenstände"/>
+    <mainmenu2 value="Credits"/>
+    <mainmenu3 value="Optionen"/>
+
+    <!-- Freeplay -->
+    <freeplay_score value="Punkte: {0}"/>
+    <freeplay_misses value="Fehler: {0}"/>
+    <freeplay_hes_waiting value="Er wartet auf dich"/>
+
+    <freeplay_dp_dialogue1 value="Nun"/>
+    <freeplay_dp_dialogue2 value="Ich glaube, es ist an der Zeit"/>
+    <freeplay_dp_dialogue3 value="Du bist sehr scharfsinnig, das gebe ich zu."/>
+    <freeplay_dp_dialogue4 value="Aber erinnere dich..."/>
+    <freeplay_dp_dialogue5 value="Jede Seele kann zerbrochen werden..."/>
+    <freeplay_dp_dialogue6 value="Komm."/>
+    <freeplay_dp_dialogue7 value="Zeig mir, dass du es verdienst, zerschmettert zu werden"/>
+
+    <freeplay_final value="Wir gratulieren dir zu deinen Siegen.\nDoch das Böse beginnt gerade erst zu erwachen, diese Geschichte ist noch lange nicht zu Ende...\n\nIn der Zwischenzeit stehen Bonus-Tracks für dich bereit."/>
+
+    <!-- Power-Ups -->
+    <powerup_title value="Gegenstandsmenü"/>
+    <powerup_current value="Aktueller Gegenstand: {0}"/>
+    <powerup_scoremult value="Punkte-Multiplikator: {0}x"/>
+
+    <powerup0_name value="Keiner"/>
+    <powerup0_desc value="Kein Effekt"/>
+    <powerup1_name value="Feuerblume"/>
+    <powerup1_desc value="Die Scrollgeschwindigkeit wird mit x1.5 multipliziert"/>
+    <powerup2_name value="Eisblume"/>
+    <powerup2_desc value="Die Scrollgeschwindigkeit wird mit x0.5 multipliziert"/>
+    <powerup3_name value="Metallkappe"/>
+    <powerup3_desc value="Du kannst kein Leben verlieren"/>
+    <powerup4_name value="Giftpilz"/>
+    <powerup4_desc value="Wenn du eine Note verfehlst, stirbst du"/>
+    <powerup5_name value="Retro-Pilz"/>
+    <powerup5_desc value="So Retro....."/>
+
+    <!-- Pause Menu -->
+    <pause_resume value="Fortsetzen"/>
+    <pause_restart value="Neustarten"/>
+    <pause_options value="Optionen"/>
+    <pause_powerup value="Gegenstände"/>
+    <pause_exit value="Zurück zum Menü"/>
+    <pause_charter value="Zurück zum Charteur"/>
+
+    <robloxpause00 value="Spieler"/>
+    <robloxpause01 value="Optionen"/>
+    <robloxpause02 value="Gegenstände"/>
+
+    <robloxpause10 value="Spiel verlassen"/>
+    <robloxpause11 value="Charakter zurücksetzen"/>
+    <robloxpause12 value="Spiel fortsetzen"/>
+
+    <!-- Result Screen -->
+    <results_title value="ERGEBNISSE!"/>
+    <results_score value="PUNKTE: {0}"/>
+    <results_misses value="FEHLER: {0}"/>
+    <results_exit value="Verlassen"/>
+    <results_retry value="Erneut versuchen"/>
+
+    <!-- HUD Texts and Others -->
+    <hud_text value="S: {0} | F: {1}"/>
+    <robloxhud_text_score value="Punkte"/>
+    <robloxhud_text_misses value="Fehler"/>
+    <yt_hud_text value="Punkte: {0} | Fehler: {1}"/>
+
+    <fatal_play_here value="Hier spielst du!"/>
+
+    <iceberg_speak_1 value="Da bin ich!"/>
+    <iceberg_speak_2 value="Denkst du, das ist witzig?"/>
+    <iceberg_speak_3 value="Das wäre total verrückt!"/>
+    <iceberg_speak_4 value="Feuer!!"/>
+
+    <heartless_speak1 value="Dann"/>
+    <heartless_speak2 value="Dann stell dich"/>
+    <heartless_speak3 value="Dann stell dich mir."/>
+    <heartless_speak4 value="EIN"/>
+    <heartless_speak5 value="EIN LETZTES"/>
+    <heartless_speak6 value="LETZTES MAL!"/>
+
+    <heartless_bulletwarning1 value="DRÜCKE *{0}*, WENN DIE KUGEL VOLL IST"/>
+
+    <!-- LOADING SCREENS!! -->
+    <immortal_intro value="Sei kein Draufgänger."/>
+
+    <betrayed_intro value="Pass auf die Feuerbälle auf"/>
+    <betrayed_intro2 value="Sei wachsam, unter deinen Füßen lebt etwas."/>
+
+    <cataclyscmic_intro value="Vertraute Gesichter bedeuten keine Sicherheit..."/>
+    <cataclyscmic_intro2 value="Glaube niemals Dingen an seltsamen Orten"/>
+    <cataclyscmic_intro3 value="Unschuld bringt dich nicht WEIT."/>
+
+    <cosmic_copy_intro value="Genieße den gegenwärtigen Moment"/>
+    <cosmic_copy_intro2 value="Super Funkin' Galaxy Referenz????"/>
+
+    <infernal_intro value="Er hasst dich."/>
+    <infernal_intro2 value="Bitte abonnieren für mehr"/>
+    <infernal_intro3 value="Der unheimlichste Typ im Mod"/>
+
+    <iceberg_intro value="Das Ziel ist einfach: Lauf."/>
+    <iceberg_intro2 value="Jede Kopie von Sunday Night Plumbin' ist personalisiert."/>
+
+    <disturbing_presence_intro value="Stell dich mir."/>
+    <disturbing_presence_intro2 value="Viel Glück."/>
+    <disturbing_presence_intro3 value="Du bist kein Held."/>
+    <disturbing_presence_intro4 value="Beenden wir diesen Unsinn."/>
+
+    <cracked_egg_intro value="Man kann kein Omelett machen, ohne ein paar Eier zu zerbrechen."/>
+    <cracked_egg_intro2 value="Du gehst zu ihm. Es kommt niemals zu dir."/>
+
+    <blessing_intro value="Der Herr wirkt auf geheimnisvolle Weise."/>
+
+    <golden_hammer_intro value="NYC muss sich immer mit solchen Dingen herumschlagen."/>
+
+    <fatal_rap_intro value="Atomwaffen sind immer tödlich."/>
+
+    <earache_intro value="Pass auf die Maltigis auf"/>
+    <earache_intro2 value="AAAAAAAAAAAAAAGGHHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGHHHHHGHGGHHHHHHHGAHHHHHHHHHHHHHH"/>
+
+    <heartless_intro value="Eine neue Herrschaft beginnt. Knie nieder."/>
+    <heartless_intro2 value="Der verletzliche Zustand unseres Königreichs lädt nur zu Angriffen ein."/>
+
+    <silent_intro value="Du findest deinen Weg nicht, nach dem Weg zu fragen könnte helfen?"/>
+    <silent_intro2 value="Du hast diese Ecke schon einmal gesehen."/>
+    <silent_intro3 value="PSCHHH! BITTE, GEH LEISE IM FLUR!"/>
+
+    <poltergeist_intro value="Es gibt noch einen weiteren Geist, dem du dich stellen musst"/>
+    <poltergeist_intro2 value="Überreste erscheinen in vielen Formen."/>
+    <poltergeist_intro3 value="Verloren und allein, ohne Elemente, in einem Herrenhaus, das endlos scheint."/>
+
+
+    <!-- Options -->
+    <optionsTree.controls-name value="Steuerung"/>
+    <optionsTree.gameplay-name value="Gameplay"/>
+    <optionsTree.appearance-nam value="Aussehen"/>
+    <optionsTree.snpOptions-name value="SNP-Optionen"/>
+    <optionsTree.back-name value="Zurück"/>
+
+    <snpOptions_generalSettings_title value="Allgemeine Einstellungen"/>
+    <snpOptions_generalSettings_desc value="Einstellungen, die fast alles im Mod betreffen"/>
+    <snpOptions_language_title value="Sprache"/>
+    <snpOptions_language_desc value="Sprache, in der der Mod angezeigt wird"/>
+    <snpOptions_musicType_title value="Musikvariante"/>
+    <snpOptions_musicType_desc value="Welche Variante der Menümusik abgespielt wird"/>
+    <snpOptions_musicType_default value="Normal"/>
+    <snpOptions_musicType_intense value="Intensiv"/>
+    <snpOptions_warningState_title value="Warnungen beim Start"/>
+    <snpOptions_warningState_desc value="Warnungen aktivieren/deaktivieren"/>
+    <snpOptions_shaderSettings_title value="Shader-Einstellungen"/>
+    <snpOptions_shaderSettings_desc value="Anpassen für bessere Leistung"/>
+    <snpOptions_glowShaders_title value="Leucht-Shader"/>
+    <snpOptions_glowShaders_desc value="Leucht-Shader aktivieren/deaktivieren"/>
+    <snpOptions_heatShaders_title value="Hitzewellen-Shader"/>
+    <snpOptions_heatShaders_desc value="Hitzewellen-Effekt aktivieren/deaktivieren"/>
+    <snpOptions_saturationShaders_title value="Sättigungs-Shader"/>
+    <snpOptions_saturationShaders_desc value="Sättigungs-Shader aktivieren/deaktivieren"/>
+    <snpOptions_tvShaders_title value="TV-Shader"/>
+    <snpOptions_tvShaders_desc value="TV-Shader aktivieren/deaktivieren"/>
+    <snpOptions_blurShaders_title value="Unschärfe-Shader"/>
+    <snpOptions_blurShaders_desc value="Unschärfe-Shader aktivieren/deaktivieren"/>
+    <snpOptions_gameplaySettings_title value="Gameplay-Einstellungen"/>
+    <snpOptions_gameplaySettings_desc value="Einstellungen, die das Gameplay betreffen (ja, wirklich)"/>
+    <snpOptions_particles_title value="Partikel"/>
+    <snpOptions_particles_desc value="Partikel aktivieren/deaktivieren"/>
+    <snpOptions_flashing_title value="Kamera-Blitze"/>
+    <snpOptions_flashing_desc value="Kamera-Blitze aktivieren/deaktivieren"/>
+    <snpOptions_waitTimer_title value="Warte-Timer"/>
+    <snpOptions_waitTimer_desc value="Zeigt die Zeit an, bevor eine Note gespielt werden muss"/>
+    <snpOptions_findLuigi_title value="Einstellungen für 'Finde Luigi'"/>
+    <snpOptions_findLuigi_desc value="Du hast Luigi gefunden"/>
+    <snpOptions_foundTheLuigi_title value="'Finde Luigi'"/>
+    <snpOptions_foundTheLuigi_desc value="Deaktivieren, um das Minispiel zurückzubringen"/>
+    <snpOptions_alwaysLuigi_title value="Immer 'Finde Luigi'"/>
+    <snpOptions_alwaysLuigi_desc value="Aktivieren, um das Spiel 'Finde Luigi' immer für Editoren zu spielen"/>
+    <snpOptions_toggleStatus_on value="An"/>
+    <snpOptions_toggleStatus_off value="Aus"/>
+    <snpOptions_shaderConsuption_low value="Niedriger Verbrauch"/>
+    <snpOptions_shaderConsuption_medium value="Mittlerer Verbrauch"/>
+    <snpOptions_shaderConsuption_high value="Hoher Verbrauch"/>
+
+    <!-- Startup Cutscene -->
+    <cutscene_text1 value="Unsere Geschichte begann vor gar nicht allzu langer Zeit,\rGleichgewicht und Wohlstand herrschten im Pilzkönigreich.\rEin Königreich voller Abenteuer und Prüfungen...\rAuf den ersten Blick drohte keine große Gefahr,\rkeine Prinzessin war zu retten, kein Stern zu finden..." />
+    <cutscene_text2 value="Mit der Zeit wurde alles ruhiger – fast schon unnatürlich.\rDoch das kümmerte unsere Helden nicht, zu beschäftigt\nmit Feiern im Schloss. Die Abenteuer würden sicher\ran einem anderen Tag weitergehen, aber im Moment\rgab es keinen Grund zur Sorge." />
+    <cutscene_text3 value="Diese Erscheinung war mehr als nur ein visuelles Phänomen, \rdenn das Schwarze Loch begann alles in sich hineinzusaugen, \rsogar Mario und Luigi,\rdie noch nie so überrascht von einer unbekannten Bedrohung waren.\nDas war kein Werk von Bowser, Antasma oder Prinzessin Shroob...\rEin neues Übel war erwacht, schlug unvorhersehbar zu,\rund niemand hätte es kommen sehen.\rWas auch immer hinter dieser makabren Maskerade steckte,\ries hatte sein Ziel erreicht." />
+    <cutscene_text4 value="Und hier sind wir, Gleichgewicht und Wohlstand herrschten im Pilzkönigreich,\raber was nützt das, wenn niemand mehr da ist, um es zu genießen?\nAlle Bewohner wurden vom Schwarzen Loch verschluckt,\rzurück bleiben nur die Gebäude,\rdie einst unsere Abenteurer beherbergten. \rNun ist alles nur noch ein Überbleibsel, und der einzige Bewohner ist die Leere." />
+    <cutscene_text5 value="Unsere beiden Helden, GF und BF, trafen kurz nach dem\rVerschwinden des Königreichs ein, zurück aus einem wohlverdienten Urlaub.\rIhr Lächeln verschwand, als sie das Fehlen der Bevölkerung\rim Pilzkönigreich bemerkten. Sie fragten sich, wohin alle gegangen sein könnten, denn keine Überraschungsparty war geplant.\nOder zumindest dachten sie das, \rdenn das Schloss hatte mehrere Überraschungen für sie parat.\rEs verströmte ein seltsames Gefühl..." />
+    <cutscene_text6 value="Unsere beiden Protagonisten konnten nicht anders,\rals der Sache auf den Grund zu gehen,\rum herauszufinden, was mit ihren Freunden geschehen war.\rUnd hier sind wir wieder – zwei Helden gegenüber einem unbekannten Übel,\rFehler, die sie nicht begangen haben, aber die sie korrigieren müssen.\rDer Zyklus des Abenteuers nimmt im Pilzkönigreich seinen Lauf!" />
+
+    <!-- Freeplay Intro -->
+    <freeplay_intro_dialogue1 value="Meine Grüße, #blauer Freund#"/>
+    <freeplay_intro_dialogue2 value="Wie du sehen kannst..."/>
+    <freeplay_intro_dialogue3 value="Unser lieber Freund Mario ist verschwunden"/>
+    <freeplay_intro_dialogue4 value="Wenn du wirklich wissen willst"/>
+    <freeplay_intro_dialogue5 value="Was meine Absichten sind..."/>
+    <freeplay_intro_dialogue6 value="Und unseren Lieblingsklempner mit Schnurrbart retten willst"/>
+    <freeplay_intro_dialogue7 value="Dann musst du dich zuerst einigen meiner"/>
+    <freeplay_intro_dialogue8 value="*Freunde* stellen"/>
+    <freeplay_intro_dialogue9 value="*Monströsen Freunde*"/>
+    <freeplay_intro_dialogue10 value="Versteckt in diesen wunderschönen Gemälden,"/>
+    <freeplay_intro_dialogue11 value="Und dann..."/>
+    <freeplay_intro_dialogue12 value="Wirst du mich auf deinem"/>
+    <freeplay_intro_dialogue13 value="Wirst du mich auf deinem *Ultimativen*"/>
+    <freeplay_intro_dialogue14 value="Wirst du mich auf deinem *Ultimativen Abenteuer* treffen"/>
+    <freeplay_intro_dialogue15 value="In meiner Welt,"/>
+    <freeplay_intro_dialogue16 value="In meiner Welt wird *Glück dich nicht retten.*"/>
+
+    <!-- Pause Menu Disto -->
+    <pause_disto_resume value="Komm zurück."/>
+    <pause_disto_restart value="Versuchs nochmal"/>
+    <pause_disto_options value="Optionen"/>
+    <pause_disto_powerup value="Betrüger"/>
+    <pause_disto_exit value="Du bist schwach."/>
+    <pause_disto_charter value="Ist die Chart zu schwer?"/>
+
+    <!-- Blessing Speak -->
+    <blessing_speak_1 value="Liebst du Jesus?"/>
+    <blessing_speak_2 value="Hast du Jesus in deinem Leben angenommen?"/>
+    <blessing_speak_3 value="Jesus liebt uns alle"/>
+    <blessing_speak_4 value="Sei informiert über Jesus, unseren Herrn"/>
+    <blessing_speak_5 value="Jesus nimmt alle Sünder an"/>
+
+    <!-- Betrayed -->
+    <betrayed_dodge_bind value="Deine Ausweichtaste ist *{0}*"/>
+
+    <!-- Option MusicType Alt -->
+    <snpOptions_musicType_alt value="Alternativ"/>
+    
+    <!-- Gallery -->
+    <gallery_author value="Von {0}"/>
+    
+    <!-- Ending Special Thank You -->
+    <credits1 value="Du hast alle Hindernisse von Sunday Night Plumbin überwunden!"/>
+    <credits2 value="Dieses Projekt existiert seit 4 Jahren.\nSunday Night Plumbin', ein FNF-Mod, entstanden aus Leidenschaft für das Fandom und all die Kreationen rund um den berühmten Schnurrbart-Installateur.\nDas gesamte Entwicklerteam hat sein Herz hineingesteckt, weil wir FNF und Mario lieben.\nTatsächlich wurden Silent, Heartless und Poltergeist ohne das Wissen des Direktors von einem Teil des ursprünglichen Teams erschaffen, die einfach Spaß haben und ihre Leidenschaft teilen wollten (dies wurde erst eine Woche vor der Veröffentlichung des Mods bekannt).\nErschaffe, was du magst, hab Spaß und scheue dich nicht, Neues auszuprobieren – das ist, was wirklich zählt...\nVielen Dank, dass du unser Spiel gespielt hast, und bis zum nächsten Mal.\n\n\n-Die Klempner / SNP Dev Team"/>
+    <credits3 value="Schau im Power-Up-Menü nach dem Retro-Pilz. Vielleicht hast du etwas verpasst."/>
+
+</lang>

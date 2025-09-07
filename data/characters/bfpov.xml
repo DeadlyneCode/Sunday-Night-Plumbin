@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="120" y="280" sprite="bf_freefalling_2" flipX="true" camx="80" camy="-40" isPlayer="true" icon="victombf" color="#30B0D1" holdTime="6.1">
+	<anim name="idle" anim="Idle" x="140" y="50" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down0" x="129" y="44" fps="24" loop="false"/>
+	<anim name="singUP" anim="Up0" x="146" y="80" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right0" x="124" y="59" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left0" x="142" y="60" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="DownMiss" x="133" y="43" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="LeftMiss" x="160" y="60" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="RightMiss" x="136" y="58" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="UpMiss" x="152" y="73" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

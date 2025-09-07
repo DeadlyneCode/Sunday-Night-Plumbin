@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="mariovictim1" y="0" isGF="false" color="#9E2449" isPlayer="false" holdTime="6.1" sprite="freefall_mario">
+	<anim x="60" loop="false" y="0" fps="24" anim="freefall mario idle" name="idle"/>
+	<anim x="81" loop="false" y="-12" fps="24" anim="freefall mario left" name="singLEFT"/>
+	<anim x="52" loop="false" y="-1" fps="24" anim="freefall mario right" name="singRIGHT"/>
+	<anim x="53" loop="false" y="3" fps="24" anim="freefall mario up" name="singUP"/>
+	<anim x="59" loop="false" y="-17" fps="24" anim="freefall mario donw" name="singDOWN"/>
+</character>

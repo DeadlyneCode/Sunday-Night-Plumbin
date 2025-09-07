@@ -1,0 +1,24 @@
+{
+	"params": [
+        {
+            "name": "ease",
+            "type": "DropDown('linear','back', 'bounce', 'circ', 'cube', 'sine', 'quint', 'quart', 'quad', 'expo', 'elastic')",
+            "defaultValue": "quad"
+        },
+
+        {
+            "name": "in",
+            "type": "DropDown('In', 'InOut', 'Out')",
+            "defaultValue": "Out"
+        },
+        
+        {
+            "name": "time",
+            "type": "String",
+            "defaultValue": "1"
+        }
+
+
+
+	]
+}

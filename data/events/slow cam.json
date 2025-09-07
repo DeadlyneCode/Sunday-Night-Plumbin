@@ -1,0 +1,9 @@
+{
+	"params": [
+		{
+            "name": "speed cam",
+            "type": "String",
+            "defaultValue": "1"
+        }
+	]
+}

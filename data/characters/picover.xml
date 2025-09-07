@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pico death" icon="pico" color="#B7D855" y="100" x="100">
+	<anim name="firstDeath" anim="BF dies" y="30"/>
+	<anim name="deathLoop" anim="BF Dead Loop" loop="true"/>
+	<anim name="deathConfirm" anim="BF Dead confirm" x="1" y="52"/>
+</character>

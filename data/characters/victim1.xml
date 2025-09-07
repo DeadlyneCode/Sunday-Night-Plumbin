@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character holdTime="6.1" camx="-450" y="-100" icon="victim" color="#FC1C0B" sprite="Victim1_sprites">
+	<anim name="idle" anim="victim 1 idle" fps="24" loop="false" x="60" y="0"/>
+	<anim name="singLEFT" anim="victim 1 left" fps="24" loop="false" x="376" y="68"/>
+	<anim name="singDOWN" anim="victim 1 down" fps="24" loop="false" x="83" y="0"/>
+	<anim name="singUP" anim="victim 1 up" fps="24" loop="false" x="91" y="70"/>
+	<anim name="singRIGHT" anim="victim 1 right" fps="24" loop="false" x="64" y="79"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="70" scale="0.3" camx="-200" camy="130" icon="toad" color="#42739D" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle" x="80" y="-100"/>
+	<anim name="singLEFT" anim="gauche" x="139" y="-97"/>
+	<anim name="singDOWN" anim="bas" x="89" y="-101"/>
+	<anim name="singUP" anim="haut" x="81" y="-80"/>
+	<anim name="singRIGHT" anim="droite" x="81" y="-92"/>
+</character>

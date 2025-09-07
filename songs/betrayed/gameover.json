@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Scripted",
+	"deathMusic": "gameover/ihyover",
+	"deathSfx": "gameover/loss_sound",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": false
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/betrayed.hx",
+	"musicDelay": 5
+}

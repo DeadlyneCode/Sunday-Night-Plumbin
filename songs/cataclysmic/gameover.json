@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Scripted",
+	"deathMusic": "gameover/mxgamover",
+	"deathSfx": "",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": false
+	},
+	"retrySfx": "gameover/MXRETRY",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/cataclysmic.hx",
+	"musicDelay": 10
+}

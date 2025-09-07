@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" y="240" camx="360" camy="540" icon="wario" color="#E95B00" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Wario/Poses/idle" loop="true"/>
+	<anim name="singLEFT" anim="Wario/Poses/left" x="290" y="-18"/>
+	<anim name="singDOWN" anim="Wario/Poses/down" x="-109" y="-357"/>
+	<anim name="singUP" anim="Wario/Poses/up" x="-21" y="272"/>
+	<anim name="singRIGHT" anim="Wario/Poses/right" x="-362" y="-168"/>
+	<anim name="fire" anim="Wario/W Extra Animation/FIREe" x="-113" y="115"/>
+	<anim name="higo" anim="Wario/W Extra Animation/here i go" x="88" y="-62"/>
+	<anim name="rire" anim="Wario/W Extra Animation/rire" x="132" y="198"/>
+	<anim name="think" anim="Wario/W Extra Animation/youthinkfun" x="40" y="-7"/>
+	<anim name="singLEFT-alt" anim="Wario/Poses FUN/left F" x="290" y="-25"/>
+	<anim name="singDOWN-alt" anim="Wario/Poses FUN/down F" x="-109" y="-319"/>
+	<anim name="singRIGHT-alt" anim="Wario/Poses FUN/right F" x="-368" y="-169"/>
+	<anim name="singUP-alt" anim="Wario/Poses FUN/up F" x="-26" y="271"/>
+</character>

@@ -1,0 +1,33 @@
+{
+	"customValues": {
+		"codename": "Ma copie venu de l'au-dela"
+	},
+	"color": "#4B98FF",
+	"pause": {
+		"composer": "Dislamp",
+		"image": "cosmicmario",
+		"imageChangeData": [
+			{
+				"step": 1120,
+				"newImage": "cosmicclone"
+			}
+		]
+	},
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "cosmic",
+	"coopAllowed": true,
+	"end": {
+		"endColor": "#3A72C3",
+		"fadeColor": "#3A72C3",
+		"startColor": "#3A70D0",
+		"midColor": "#3E97D3"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Cosmic Copy",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 160
+}

@@ -1,0 +1,24 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 95,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": false,
+	"parsedColor": -1,
+	"displayName": "Immortal (Old)",
+	"icon": "Icon",
+	"name": "immortal-old",
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "Retro"
+	},
+	"pause": {
+		"composer": "megaman9009",
+		"imageChangeData": [],
+		"image": "retrotal"
+	}
+}

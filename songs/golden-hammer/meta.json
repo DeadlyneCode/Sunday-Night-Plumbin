@@ -1,0 +1,23 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "jumpman",
+	"coopAllowed": true,
+	"name": "golden-hammer",
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "La massue d'or qui s'eleve"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Golden Hammer",
+	"needsVoices": false,
+	"pause": {
+		"composer": "Dislamp",
+		"imageChangeData": [],
+		"image": "JP"
+	},
+	"beatsPerMeasure": 4,
+	"bpm": 218
+}

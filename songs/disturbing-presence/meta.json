@@ -1,0 +1,34 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "gilbert",
+	"difficulties": [
+		"normal"
+	],
+	"end": {
+		"endColor": "#060000",
+		"midColor": "#767676",
+		"startColor": "#414141",
+		"fadeColor": "#4B4B4B"
+	},
+	"customValues": {
+		"codename": "L'homme qui se cache de moi..."
+	},
+	"color": -15856114,
+	"name": "Disturbing-presence",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Disturbing Presence",
+	"pause": {
+		"composer": "ParadoxPulse & Deadlyne",
+		"imageChangeData": [
+			{
+				"step": 1888,
+				"newImage": "pissedgilbert"
+			}
+		],
+		"image": "gilbert"
+	},
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 170
+}

@@ -1,0 +1,18 @@
+{
+	"gameoverType": "PNG",
+	"deathMusic": "gameover/bergover",
+	"deathSfx": "gameover/closedoor",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/iceberg.hx",
+	"musicDelay": 1
+}

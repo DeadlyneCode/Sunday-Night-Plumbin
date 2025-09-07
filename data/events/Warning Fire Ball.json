@@ -1,0 +1,9 @@
+{
+	"params": [
+		{
+            "name": "warning",
+            "type": "Bool",
+            "defaultValue": "camGame"
+        }
+	]
+}

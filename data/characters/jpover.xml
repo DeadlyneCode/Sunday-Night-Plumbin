@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="jumboy-dead" scale="2" antialiasing="false" icon="jpover" y="150" x="175">
+	<anim name="deathLoop" anim="deathLoop"/>
+	<anim name="firstDeath" anim="firstDeath" fps="6"/>
+	<anim name="deathConfirm" anim="deathLoop"/>
+</character>

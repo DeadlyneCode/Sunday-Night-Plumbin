@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/victim/" zoom="0.7" startCamPosY="410" startCamPosX="1255" name="mario">
+	<sprite x="800" y="200" sprite="bg" scale="2.2" scaleX="2.6" name="bg"/>
+	<sprite x="0" y="600" sprite="victom_ground" scale="1.2" name="victom_ground"/>
+	<sprite x="1655" y="443" sprite="ombre" scalex="0.8" scaley="1" name="ombre"/>
+	<sprite x="780" y="445" sprite="ombre" scalex="1" scaley="0.9" name="ombremario"/>
+	<sprite x="250" sprite="victim_1_ground" y="728" scale="2" name="last"/>
+	<sprite x="2200" name="mic" y="375" sprite="mic"/>
+	<boyfriend x="1500" camxoffset="100" y="75" camyoffset="50"/>
+	<dad x="800" camxoffset="200" y="210" camyoffset="50"/>
+	<sprite x="0" name="2part" y="400" sprite="floor2"/>
+	<sprite x="-290" y="-200" sprite="effectb" scalex="1" scaley="1" name="effectb">
+		<property type="float" name="scrollFactor.x" value="0"/>
+		<property type="float" name="scrollFactor.y" value="0"/>
+		<property type="float" name="alpha" value="0.6"/>
+	</sprite>
+</stage>

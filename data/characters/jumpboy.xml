@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="180" y="90" sprite="jumpboy" flipX="true" camx="240" isPlayer="true" icon="jumpboy" color="#6084CC" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="poses/idle" x="85" y="-19" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="poses/right" x="38" y="-350" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="poses/left" x="102" y="-92" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="poses/down" x="-109" y="-301" fps="24" loop="false"/>
+	<anim name="singUP" anim="poses/up" x="42" y="23" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="fail poses/poses/rightmiss" x="36" y="-351" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="fail poses/poses/leftmiss" x="57" y="-92" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="fail poses/poses/downmiss" x="-108" y="-301" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="fail poses/poses/upmiss" x="41" y="22" fps="24" loop="false"/>
+</character>

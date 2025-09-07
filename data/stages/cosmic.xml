@@ -1,0 +1,36 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/cosmic/" zoom="0.4" name="cosmic">
+	<sprite x="0" scrolly="0.9" y="0" sprite="sky" scale="2.2" name="ciel" scrollx="0.9"/>
+	<sprite scrolly="0.4" x="-200" sprite="bg" y="-200" scale="1.8" zoomfactor="0.9" name="bg" scrollx="0.4"/>
+	<sprite x="-900" scrolly="0.75" y="500" sprite="rock 1" scale="2.2" name="rock1" scrollx="0.75"/>
+	<sprite x="900" scrolly="0.75" y="500" sprite="rock 2" scale="2.2" name="rock2" scrollx="0.75"/>
+	<sprite x="2910" scrolly="0.75" y="500" sprite="rock 3" scale="2.2" name="rock3" scrollx="0.75"/>
+
+	<sprite scrolly="0.8" x="2200" y="1850" sprite="ground1" zoomfactor="0.9" scrollx="0.8" scale="1.15" name="ground cosmic2"/>
+	<sprite scrolly="0.8" x="-400" y="1850" sprite="ground1" zoomfactor="0.9" scrollx="0.8" scale="1.15" name="ground cosmic1"/>
+
+	<sprite x="783" scrolly="0.7" sprite="ground gf" y="1081" scale="2.2" zoomfactor="0.9" name="ground gf" scrollx="0.7"/>
+	<girlfriend camxoffset="140" scrolly="0.7" x="678" camyoffset="90" y="580" scale="0.5" scrollx="0.7"/>
+	<solid x="-1600" y="-600" width="7560" name="fondnoir" color="#000000" height="7440">
+		
+		
+		<property type="float" name="alpha" value="0"/>
+		
+	
+	</solid>
+	<sprite x="1800" sprite="ground1" y="1300" scale="2.2" name="ground1"/>
+	<sprite x="100" y="1300" sprite="ground1" zoomfactor="1.1" scale="2.2" name="ground2"/>
+	<boyfriend x="1600" camxoffset="-50" y="550" camyoffset="-75"/>
+	<dad x="300" y="640"/>
+	<solid x="-1600" y="-600" width="7560" name="filtre" color="#1B384D" height="7440">
+		
+		
+		<property type="int" name="blend" value="9"/>
+		
+		
+		<property type="float" name="alpha" value="0.3"/>
+		
+	
+	</solid>
+	<combo/>
+</stage>

@@ -1,0 +1,39 @@
+<!DOCTYPE codename-mod-options>
+<menu name="SNP Options" desc="Modify SNP's Settings">
+	<text translation="generalSettings"/>
+	<choice id="language" translation="language">
+		<value name="English" value="english"/>
+		<value name="Français" value="french"/>
+		<value name="Português (BR)" value="portugues-br"/>
+		<value name="Deutsch " value="deutsch"/>
+	</choice>
+	<choice id="menuMusicType" translation="musicType">
+		<value translation="musicType_default" value="default"/>
+		<value translation="musicType_alt" value="alt"/>
+	</choice>
+	<checkbox id="viewWarningState" translation="warningState" />
+
+	<separator/>
+	<text translation="shaderSettings"/>
+	<checkbox id="glow" translation="glowShaders" consuption="medium"/>
+	<checkbox id="heatwave" translation="heatShaders" consuption="medium"/>
+	<checkbox id="saturation" translation="saturationShaders" consuption="high"/>
+	<checkbox id="tv" translation="tvShaders" consuption="low"/>
+	<checkbox id="flou" translation="blurShaders" consuption="high"/>
+	
+	<separator/>
+	<text translation="gameplaySettings"/>
+	<checkbox id="particles" translation="particles" consuption="high"/>
+	<checkbox id="flashing" translation="flashing" />
+	<checkbox id="waitTimer" translation="waitTimer" />
+
+	<separator if="wonLuigi" />
+	<text translation="findLuigi" if="wonLuigi" />
+	<checkbox id="wonLuigi" translation="foundTheLuigi" if="wonLuigi" />
+	<checkbox id="alwaysLuigi" translation="alwaysLuigi" if="wonLuigi" />
+	
+	<separator/>
+	<text name="Debug Settings" desc="Je ne traduis pas cette merde"/>
+	<checkbox id="song" name="Unlock all song" desc="Unlock all the song in the freeplay. Enable/Disable" />
+	<checkbox id="reset" name="Reset all song" desc="Restart the mod. Enable/Disable" />
+</menu>

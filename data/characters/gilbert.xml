@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character y="60" sprite="gilbert" scale="1.2" camx="-350" camy="150" icon="gilbert" color="#000000" holdTime="8" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="291" y="3" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="239" y="1" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="161" y="288" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="140" y="1" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="wesh" x="25" y="-11" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="scleft" x="389" y="14" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="scdown" x="37" y="0" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="scup" x="626" y="737" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="scright" x="16" y="52" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

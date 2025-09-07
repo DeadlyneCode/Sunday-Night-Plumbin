@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="egg death.png" width="1911" height="2268">
+	<SubTexture name="victom bf death beginning0000" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0001" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0002" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0003" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0004" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0005" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0006" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0007" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0008" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0009" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0010" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0011" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0012" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0013" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0014" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0015" x="1" y="1095" width="215" height="357" frameX="-146" frameY="-375" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0016" x="1" y="1" width="349" height="1091" frameX="-65" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0017" x="353" y="1" width="336" height="828" frameX="-71" frameY="-138" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0018" x="1525" y="1" width="353" height="479" rotated="true" frameX="-0" frameY="-387" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0019" x="1416" y="1488" width="429" height="401" frameX="-25" frameY="-363" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0020" x="1416" y="1488" width="429" height="401" frameX="-25" frameY="-363" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0021" x="1513" y="528" width="397" height="426" frameX="-41" frameY="-351" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0022" x="1513" y="528" width="397" height="426" frameX="-41" frameY="-351" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0023" x="1427" y="1067" width="439" height="389" rotated="true" frameX="-45" frameY="-344" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0024" x="1427" y="1067" width="439" height="389" rotated="true" frameX="-45" frameY="-344" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0025" x="1" y="1881" width="446" height="379" rotated="true" frameX="-50" frameY="-341" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0026" x="1" y="1881" width="446" height="379" rotated="true" frameX="-50" frameY="-341" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death beginning0027" x="510" y="1490" width="376" height="449" frameX="-51" frameY="-339" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death end0000" x="1" y="1490" width="506" height="388" rotated="true" frameX="-39" frameY="-29" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0001" x="692" y="537" width="412" height="535" frameX="-15" frameY="-0" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0002" x="353" y="1075" width="535" height="412" rotated="true" frameX="-15" frameY="-0" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0003" x="692" y="1" width="427" height="533" frameX="-0" frameY="-2" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0004" x="891" y="1075" width="533" height="410" rotated="true" frameX="-17" frameY="-2" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0005" x="1107" y="537" width="403" height="527" frameX="-24" frameY="-8" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0006" x="1107" y="537" width="403" height="527" frameX="-24" frameY="-8" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0007" x="1122" y="1" width="400" height="524" frameX="-27" frameY="-11" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0008" x="1122" y="1" width="400" height="524" frameX="-27" frameY="-11" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0009" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0010" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0011" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0012" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0013" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0014" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0015" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0016" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0017" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0018" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0019" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0020" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0021" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0022" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0023" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death end0024" x="891" y="1488" width="522" height="400" rotated="true" frameX="-27" frameY="-13" frameWidth="427" frameHeight="535"/>
+	<SubTexture name="victom bf death loop0000" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0001" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0002" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0003" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0004" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0005" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0006" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0007" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0008" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0009" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0010" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0011" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0012" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0013" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0014" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0015" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0016" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0017" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0018" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0019" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0020" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0021" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0022" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0023" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0024" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0025" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0026" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0027" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0028" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0029" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0030" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0031" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0032" x="510" y="1490" width="376" height="449" frameX="-0" frameY="-0" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0033" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0034" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+	<SubTexture name="victom bf death loop0035" x="889" y="1891" width="449" height="376" rotated="true" frameX="-0" frameY="-1" frameWidth="479" frameHeight="1091"/>
+</TextureAtlas>

@@ -1,0 +1,14 @@
+{
+	"params": [
+        {
+            "name": "Shake density",
+            "type": "String",
+            "defaultValue": "0.005"
+        },
+        {
+            "name": "Duration",
+            "type": "String",
+            "defaultValue": "1"
+        }
+	]
+}

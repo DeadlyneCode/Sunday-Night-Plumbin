@@ -1,0 +1,35 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "toad",
+	"parsedColor": -1,
+	"coopAllowed": true,
+	"name": "silent",
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "Je sais pas en vrai"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Silent",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100,
+	"pause": {
+		"composer": "Deadlyne & ParadoxPulse",
+		"imageChangeData": [
+			{
+				"step": 384,
+				"newImage": "amalgam"
+			}
+		],
+		"image": "toad"
+	},
+	"end": {
+		"endColor": "#1D0E2F",
+		"fadeColor": "#1D0505",
+		"startColor": "#261D6F",
+		"midColor": "#0F0D24"
+	}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/manor/" zoom="0.8" name="manor">
+	<gf x="1099" y="319"/>
+	<combo/>
+	<sprite name="back" sprite="back" scaley="1.2"/>
+	<sprite x="1413" scrolly="0.7" sprite="phasedeux-4" y="-69" zoomfactor="0.8" alpha="0.0001" name="phasedeux-4" scrollx="0.7"/>
+	<sprite x="-148" scrolly="0.85" sprite="phasedeux-2" y="-33" zoomfactor="0.9" alpha="0.0001" name="phasedeux-3" scrollx="0.85"/>
+
+	
+	<solid x="-1256" y="-1225" width="5000" name="transition phase2" color="#767373" height="5000">
+		
+		
+		<property type="float" name="alpha" value="0"/>
+		
+	
+	</solid>
+	<sprite x="1112" y="-15" sprite="6" type="none" zoomfactor="0.8" scrolly="0.6" scrollx="0.7" name="6"/>
+
+	<sprite x="946" y="31" sprite="4" type="none" zoomfactor="0.85" scrolly="0.7" scrollx="0.8" name="4"/>
+	<sprite x="-230" y="-34.43" sprite="3" type="none" zoomfactor="0.9" scrolly="0.8" scrollx="0.9" name="3"/>
+
+
+	<sprite x="150" y="0" sprite="phase3-2" alpha="0.0001" type="none" name="phase3-2"/>
+	<dad scrolly="0.9" x="1113.78" y="350.05" camyoffset="-50" scale="1.3" zoomfactor="0.95" scrollx="0.9"/>
+
+
+	<sprite x="50" scrolly="0.85" sprite="phasedeux-3" y="0" zoomfactor="0.95" alpha="0.0001" name="phasedeux-light" scrollx="0.85">	
+		<property type="int" name="blend" value="0"/>
+	</sprite>
+
+	<sprite x="50" scrolly="0.85" sprite="phasedeux-3" y="0" zoomfactor="0.95" alpha="0.0001" name="lightwindow" scrollx="0.85">	
+		<property type="int" name="blend" value="0"/>
+	</sprite>
+
+
+	<sprite x="860" sprite="light" alpha="0" name="light">
+		<property type="float" value="0" name="alpha"/>
+		<property type="int" value="0" name="blend"/>
+	</sprite>
+	<sprite x="150" y="0" sprite="phase3-1" alpha="0.0001" type="none" name="phase3-1"/>
+	<sprite x="1343" sprite="phasedeux-1" y="660" alpha="0.0001" name="phasedeux-1"/>
+	<sprite scrolly="0.95" x="1332" y="552" sprite="2" type="none" zoomfactor="0.95" scrollx="0.95" name="2"/>
+	<sprite x="70.7144300560896" y="782" sprite="1" type="none" name="1"/>
+	<bf x="509.82" camxoffset="200" y="357.27" scale="0.6" angle="-2.33295306515608"/>
+	<sprite alpha="0.2" name="cadre" sprite="cadre"/>
+	<sprite x="0" y="0" sprite="grain" zoomfactor="0" scale="1" name="grain">
+		
+
+		
+		<property type="float" name="alpha" value="0.04"/>
+		
+		
+		<property type="int" name="blend" value="0"/>
+		
+
+		
+		<property type="float" value="0" name="scrollFactor.x"/>
+		
+		
+		
+		<property type="float" value="0" name="scrollFactor.y"/>
+		
+	
+	</sprite>
+</stage>

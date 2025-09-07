@@ -1,0 +1,72 @@
+{
+	"params": [
+		{
+            "name": "Video File Name",
+            "type": "String",
+            "defaultValue": ""
+        },
+
+        {
+            "name": "Video Scale",
+            "type": "String",
+            "defaultValue": "1"
+        },
+
+        {
+            "name": "X Position",
+            "type": "String",
+            "defaultValue": ""
+        },
+
+        {
+            "name": "Y Position",
+            "type": "String",
+            "defaultValue": ""
+        },
+
+        {
+            "name": "Camera",
+            "type": "DropDown('camGame', 'camHUD/hideHUD', 'camHUD/showHUD')",
+            "defaultValue": "camHUD/hideHUD"
+        },
+
+        {
+            "name": "Center on screen",
+            "type": "Bool",
+            "defaultValue": true
+        },
+
+        {
+            "name": "Hide Opponent Strums",
+            "type": "Bool",
+            "defaultValue": false
+        },
+
+        {
+            "name": "Hide Player Notes",
+            "type": "Bool",
+            "defaultValue": false
+        },
+
+        {
+            "name": "index(forCamGame, it must be in xml stage)",
+            "type": "String",
+            "defaultValue": "stage"
+        },
+        {
+            "name": "Has audio",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Fullscreen",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "Destroy Video on End",
+            "type": "Bool",
+            "defaultValue": true
+        }
+	]
+}

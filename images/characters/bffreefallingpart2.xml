@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bffreefallingpart2.png" width="1861" height="2128">
+	<SubTexture name="freefall bf down0000" x="0" y="0" width="446" height="322" frameX="-0" frameY="-4" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0001" x="0" y="0" width="446" height="322" frameX="-0" frameY="-4" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0002" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0003" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0004" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0005" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0006" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0007" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0008" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0009" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0010" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0011" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0012" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0013" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0014" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0015" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0016" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0017" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0018" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down0019" x="1125" y="0" width="331" height="441" rotated="true" frameX="-2" frameY="-0" frameWidth="446" frameHeight="331"/>
+	<SubTexture name="freefall bf down miss0000" x="1125" y="441" width="329" height="440" rotated="true" frameX="-0" frameY="-3" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0001" x="1125" y="441" width="329" height="440" rotated="true" frameX="-0" frameY="-3" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0002" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0003" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0004" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0005" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0006" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0007" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0008" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0009" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0010" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0011" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0012" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0013" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0014" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0015" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0016" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0017" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0018" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf down miss0019" x="443" y="663" width="442" height="331" frameX="-0" frameY="-0" frameWidth="442" frameHeight="332"/>
+	<SubTexture name="freefall bf idle0000" x="0" y="663" width="443" height="338" frameX="-1" frameY="-8" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0001" x="0" y="663" width="443" height="338" frameX="-1" frameY="-8" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0002" x="0" y="1001" width="442" height="339" frameX="-1" frameY="-8" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0003" x="0" y="1001" width="442" height="339" frameX="-1" frameY="-8" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0004" x="0" y="322" width="445" height="341" frameX="-0" frameY="-4" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0005" x="0" y="322" width="445" height="341" frameX="-0" frameY="-4" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0006" x="446" y="0" width="338" height="444" rotated="true" frameX="-0" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0007" x="446" y="0" width="338" height="444" rotated="true" frameX="-0" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0008" x="784" y="0" width="341" height="443" rotated="true" frameX="-1" frameY="-0" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0009" x="784" y="0" width="341" height="443" rotated="true" frameX="-1" frameY="-0" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0010" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0011" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0012" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0013" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0014" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0015" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0016" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0017" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0018" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0019" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0020" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0021" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0022" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0023" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0024" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0025" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0026" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0027" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0028" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0029" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0030" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0031" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0032" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0033" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0034" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0035" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0036" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0037" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0038" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0039" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0040" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0041" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0042" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0043" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0044" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0045" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0046" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0047" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0048" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf idle0049" x="443" y="994" width="442" height="340" frameX="-1" frameY="-1" frameWidth="445" frameHeight="347"/>
+	<SubTexture name="freefall bf left0000" x="0" y="1714" width="423" height="414" frameX="-0" frameY="-0" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0001" x="0" y="1714" width="423" height="414" frameX="-0" frameY="-0" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0002" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0003" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0004" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0005" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0006" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0007" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0008" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0009" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0010" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0011" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0012" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0013" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0014" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0015" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0016" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0017" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0018" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left0019" x="1279" y="1712" width="409" height="413" frameX="-6" frameY="-6" frameWidth="423" frameHeight="420"/>
+	<SubTexture name="freefall bf left miss0000" x="435" y="1712" width="422" height="416" rotated="true" frameX="-0" frameY="-0" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0001" x="435" y="1712" width="422" height="416" rotated="true" frameX="-0" frameY="-0" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0002" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0003" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0004" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0005" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0006" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0007" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0008" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0009" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0010" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0011" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0012" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0013" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0014" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0015" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0016" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0017" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0018" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf left miss0019" x="1301" y="1288" width="414" height="424" frameX="-7" frameY="-5" frameWidth="421" frameHeight="429"/>
+	<SubTexture name="freefall bf up0000" x="857" y="1712" width="422" height="415" frameX="-0" frameY="-0" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0001" x="857" y="1712" width="422" height="415" frameX="-0" frameY="-0" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0002" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0003" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0004" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0005" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0006" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0007" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0008" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0009" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0010" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0011" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0012" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0013" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0014" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0015" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0016" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0017" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0018" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up0019" x="1454" y="862" width="407" height="426" rotated="true" frameX="-2" frameY="-5" frameWidth="428" frameHeight="415"/>
+	<SubTexture name="freefall bf up miss0000" x="1456" y="432" width="405" height="430" rotated="true" frameX="-1" frameY="-0" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0001" x="1456" y="432" width="405" height="430" rotated="true" frameX="-1" frameY="-0" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0002" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0003" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0004" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0005" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0006" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0007" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0008" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0009" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0010" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0011" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0012" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0013" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0014" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0015" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0016" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0017" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0018" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0019" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall bf up miss0020" x="1456" y="0" width="405" height="432" rotated="true" frameX="-0" frameY="-2" frameWidth="432" frameHeight="407"/>
+	<SubTexture name="freefall right0000" x="870" y="1334" width="431" height="366" frameX="-3" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0001" x="870" y="1334" width="431" height="366" frameX="-3" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0002" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0003" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0004" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0005" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0006" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0007" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0008" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0009" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0010" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0011" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0012" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0013" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0014" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0015" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0016" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0017" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0018" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right0019" x="435" y="1340" width="435" height="368" frameX="-0" frameY="-0" frameWidth="435" frameHeight="368"/>
+	<SubTexture name="freefall right miss0000" x="885" y="881" width="371" height="435" rotated="true" frameX="-5" frameY="-3" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0001" x="885" y="881" width="371" height="435" rotated="true" frameX="-5" frameY="-3" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0002" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0003" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0004" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0005" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0006" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0007" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0008" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0009" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0010" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0011" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0012" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0013" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0014" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0015" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0016" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0017" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0018" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+	<SubTexture name="freefall right miss0019" x="0" y="1340" width="435" height="374" frameX="-0" frameY="-0" frameWidth="440" frameHeight="374"/>
+</TextureAtlas>

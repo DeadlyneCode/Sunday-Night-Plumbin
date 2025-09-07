@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="528" y="47" scale="1.5" flipX="true" camx="-230" camy="-80" isPlayer="true" icon="bf" color="#30B0D1" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="bas0" x="15.56" y="-0.94"/>
+	<anim name="singUP" anim="haut0" x="-1.87" y="18.93"/>
+	<anim name="singRIGHT" anim="droite0" x="4.59" y="-0.99"/>
+	<anim name="singLEFT" anim="gauche0" x="61.71" y="3.42"/>
+</character>

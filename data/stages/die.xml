@@ -1,0 +1,35 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/die/" name="die" zoom="3">
+	<sprite scrolly="0.7" x="0" sprite="ciel" y="-200" scrollx="0.7" name="ciel"/>
+	<gf/>
+	<sprite scrolly="0.7" x="0" sprite="ciel2" y="-200" scrollx="0.7" name="ciel2"/>
+
+	<sprite sprite="NBN" scale="1.2" name="bg" scroll="0.9"/>
+
+	<boyfriend scrolly="1.4" x="50" camxoffset="210" flip="false" y="31" camyoffset="-100" scrollx="1.4" scale="1.25"/>
+
+	<dad x="520" camxoffset="-250" y="-210" camyoffset="-20" scale="0.4"/>
+
+	<sprite x="0" sprite="light" y="0" scale="1.2" name="light">
+		<property type="float" value="0.2" name="alpha"/>
+		<property type="int" value="0" name="blend"/>
+	</sprite>
+
+	<sprite scrolly="1.1" x="26" y="20" sprite="HGHK" scrollx="1.07" name="table"/>
+	
+	<solid x="-1600" y="-600" width="7560" color="0x5BE7FF" height="7440" name="filtre">
+		<property type="int" value="0" name="blend"/>
+		<property type="float" value="0.1" name="alpha"/>
+	</solid>
+	<solid x="-1600" y="-600" width="7560" color="0xEA7429" height="7440" name="filtre2">
+		
+		
+		<property type="int" value="0" name="blend"/>
+		
+		
+		<property type="float" value="0.3" name="alpha"/>
+		
+	
+	</solid>
+	<combo/>
+</stage>

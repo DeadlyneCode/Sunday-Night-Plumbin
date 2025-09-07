@@ -1,0 +1,18 @@
+{
+	"gameoverType": "PNG",
+	"deathMusic": "gameover/distover",
+	"deathSfx": "gameover/distosfx",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/distoretry",
+	"pngOptions": {
+		"fadeDuration": 12,
+		"imageName": "dpover"
+	},
+	"sfxDelay": 0,
+	"scriptName": "",
+	"musicDelay": 5
+}

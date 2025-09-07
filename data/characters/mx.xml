@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-250" y="200" sprite="mx" scale="1.5" camx="600" camy="200" icon="mx" color="#431D39" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="MX/poses/idle" x="-10" y="90" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="MX/poses/left" x="205" y="527" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="MX/poses/down" x="-169" y="-219" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="MX/poses/right" x="-82" y="185" fps="24" loop="false"/>
+	<anim name="singUP" anim="MX/poses/up" x="13" y="-195" fps="24" loop="false"/>
+	<anim name="bas" anim="MX/poses/mx tombe" x="230" y="1300" fps="24" loop="false"/>
+	<anim name="scream" anim="MX/poses/scream" x="-280" y="-274" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Video",
+	"deathMusic": "gameover/maltigiover",
+	"deathSfx": "",
+	"videoOptions": {
+		"videoName": "maltigigameover",
+		"videoHasSound": true,
+		"videoLooping": false
+	},
+	"retrySfx": "scream",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 1,
+	"scriptName": "",
+	"musicDelay": 2
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="350" y="150" scale="1.15" camy="-160" camx="-950" icon="elh" color="#BEDAD7" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle" x="396.92" y="0.28"/>
+	<anim name="singLEFT" anim="gauche0" x="525.27" y="-8.27"/>
+	<anim name="singDOWN" anim="bas0" x="365.53" y="-12.91"/>
+	<anim name="singUP" anim="haut0" x="455.75" y="166.5"/>
+	<anim name="singRIGHT" anim="droite0" x="368.25" y="55.25"/>
+	<anim name="singLEFT-alt" anim="gauche alt" x="449.29" y="235.7"/>
+	<anim name="singDOWN-alt" anim="bas alt" x="367.28" y="3.39"/>
+	<anim name="singUP-alt" anim="haut alt" x="396.41" y="185.48"/>
+	<anim name="singRIGHT-alt" anim="droite alt" x="406.43" y="-16.78"/>
+	<anim name="crie" anim="crie" x="377.17" y="291.03"/>
+	<anim name="arh" anim="arh" x="627.91" y="63.3"/>
+</character>

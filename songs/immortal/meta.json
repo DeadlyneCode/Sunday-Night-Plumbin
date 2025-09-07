@@ -1,0 +1,45 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"codename": "Le Pacte de l'Immortel"
+	},
+	"pause": {
+		"composer": "Deadlyne & Dislamp",
+		"image": "fake_coolrash",
+		"imageChangeData": [
+			{
+				"step": 1024,
+				"newImage": "coolrash"
+			},
+			{
+				"step": 1856,
+				"newImage": "coolrashtoad"
+			},
+			{
+				"step": 2176,
+				"newImage": "devil"
+			},
+			{
+				"step": 3072,
+				"newImage": "saturated coolrash"
+			}
+		]
+	},
+	"opponentModeAllowed": false,
+	"icon": "marioexe",
+	"difficulties": [
+		"NORMAL"
+	],
+	"end": {
+		"endColor": "#951F00",
+		"fadeColor": "#000000",
+		"startColor": "#BD6000",
+		"midColor": "#FF3702"
+	},
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Immortal",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 188
+}

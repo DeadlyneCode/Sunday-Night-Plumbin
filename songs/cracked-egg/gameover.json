@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Scripted",
+	"deathMusic": "gameover/eggover",
+	"deathSfx": "gameover/loss_sound",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/crackedRetry",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/cracked-egg.hx",
+	"musicDelay": 1
+}

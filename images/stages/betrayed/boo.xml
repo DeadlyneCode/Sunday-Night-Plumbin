@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="boo.png" width="872" height="160">
+	<SubTexture name="boo0000" x="1" y="1" width="172" height="158" frameX="-1" frameY="-6" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0001" x="1" y="1" width="172" height="158" frameX="-1" frameY="-6" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0002" x="526" y="1" width="171" height="158" frameX="-0" frameY="-8" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0003" x="526" y="1" width="171" height="158" frameX="-0" frameY="-8" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0004" x="1" y="1" width="172" height="158" frameX="-1" frameY="-6" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0005" x="1" y="1" width="172" height="158" frameX="-1" frameY="-6" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0006" x="176" y="1" width="172" height="158" frameX="-2" frameY="-3" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0007" x="176" y="1" width="172" height="158" frameX="-2" frameY="-3" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0008" x="700" y="1" width="171" height="158" frameX="-3" frameY="-2" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0009" x="700" y="1" width="171" height="158" frameX="-3" frameY="-2" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0010" x="351" y="1" width="172" height="158" frameX="-3" frameY="-0" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0011" x="351" y="1" width="172" height="158" frameX="-3" frameY="-0" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0012" x="351" y="1" width="172" height="158" frameX="-3" frameY="-0" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0013" x="351" y="1" width="172" height="158" frameX="-3" frameY="-0" frameWidth="175" frameHeight="166"/>
+	<SubTexture name="boo0014" x="351" y="1" width="172" height="158" frameX="-3" frameY="-0" frameWidth="175" frameHeight="166"/>
+</TextureAtlas>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="victom_bf.png" width="2030" height="1853">
+	<SubTexture name="victom bf down0000" x="1110" y="959" width="343" height="312" frameX="-0" frameY="-5" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0001" x="1110" y="959" width="343" height="312" frameX="-0" frameY="-5" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0002" x="1127" y="319" width="334" height="318" frameX="-4" frameY="-0" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0003" x="1127" y="319" width="334" height="318" frameX="-4" frameY="-0" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0004" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0005" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0006" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0007" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0008" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0009" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0010" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0011" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0012" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down0013" x="1130" y="637" width="333" height="318" frameX="-5" frameY="-1" frameWidth="344" frameHeight="319"/>
+	<SubTexture name="victom bf down miss0000" x="0" y="1267" width="337" height="314" frameX="-0" frameY="-6" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0001" x="0" y="1267" width="337" height="314" frameX="-0" frameY="-6" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0002" x="729" y="1258" width="328" height="322" frameX="-4" frameY="-0" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0003" x="729" y="1258" width="328" height="322" frameX="-4" frameY="-0" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0004" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0005" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0006" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0007" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0008" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0009" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0010" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0011" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0012" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf down miss0013" x="907" y="0" width="333" height="319" frameX="-2" frameY="-2" frameWidth="337" frameHeight="322"/>
+	<SubTexture name="victom bf idle0000" x="769" y="359" width="358" height="308" rotated="true" frameX="-1" frameY="-6" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0001" x="769" y="359" width="358" height="308" rotated="true" frameX="-1" frameY="-6" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0002" x="596" y="0" width="311" height="359" frameX="-1" frameY="-6" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0003" x="596" y="0" width="311" height="359" frameX="-1" frameY="-6" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0004" x="383" y="671" width="362" height="307" rotated="true" frameX="-1" frameY="-3" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0005" x="383" y="671" width="362" height="307" rotated="true" frameX="-1" frameY="-3" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0006" x="365" y="978" width="364" height="297" rotated="true" frameX="-0" frameY="-1" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0007" x="365" y="978" width="364" height="297" rotated="true" frameX="-0" frameY="-1" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0008" x="745" y="959" width="365" height="299" rotated="true" frameX="-0" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0009" x="745" y="959" width="365" height="299" rotated="true" frameX="-0" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0010" x="0" y="966" width="365" height="301" rotated="true" frameX="-1" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0011" x="0" y="966" width="365" height="301" rotated="true" frameX="-1" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0012" x="0" y="966" width="365" height="301" rotated="true" frameX="-1" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf idle0013" x="0" y="966" width="365" height="301" rotated="true" frameX="-1" frameY="-0" frameWidth="312" frameHeight="366"/>
+	<SubTexture name="victom bf left0000" x="1057" y="1271" width="373" height="277" rotated="true" frameX="-0" frameY="-1" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0001" x="1057" y="1271" width="373" height="277" rotated="true" frameX="-0" frameY="-1" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0002" x="337" y="1552" width="374" height="274" rotated="true" frameX="-5" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0003" x="337" y="1552" width="374" height="274" rotated="true" frameX="-5" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0004" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0005" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0006" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0007" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0008" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0009" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0010" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0011" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0012" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left0013" x="711" y="1580" width="374" height="273" rotated="true" frameX="-4" frameY="-0" frameWidth="279" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0000" x="1240" y="0" width="374" height="276" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0001" x="1240" y="0" width="374" height="276" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0002" x="1453" y="955" width="276" height="374" frameX="-1" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0003" x="1453" y="955" width="276" height="374" frameX="-1" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0004" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0005" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0006" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0007" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0008" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0009" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0010" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0011" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0012" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf left miss0013" x="337" y="1275" width="374" height="277" rotated="true" frameX="-0" frameY="-0" frameWidth="277" frameHeight="374"/>
+	<SubTexture name="victom bf right0000" x="1717" y="1329" width="284" height="356" frameX="-5" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0001" x="1717" y="1329" width="284" height="356" frameX="-5" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0002" x="1430" y="1329" width="287" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0003" x="1430" y="1329" width="287" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0004" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0005" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0006" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0007" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0008" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0009" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0010" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0011" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0012" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right0013" x="1461" y="276" width="288" height="356" frameX="-0" frameY="-1" frameWidth="289" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0000" x="1463" y="632" width="356" height="283" rotated="true" frameX="-4" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0001" x="1463" y="632" width="356" height="283" rotated="true" frameX="-4" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0002" x="1729" y="915" width="282" height="356" frameX="-0" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0003" x="1729" y="915" width="282" height="356" frameX="-0" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0004" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0005" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0006" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0007" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0008" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0009" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0010" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0011" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0012" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf right miss0013" x="1749" y="0" width="281" height="356" frameX="-2" frameY="-1" frameWidth="287" frameHeight="357"/>
+	<SubTexture name="victom bf up0000" x="745" y="671" width="385" height="288" rotated="true" frameX="-2" frameY="-0" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0001" x="745" y="671" width="385" height="288" rotated="true" frameX="-2" frameY="-0" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0002" x="0" y="676" width="383" height="290" rotated="true" frameX="-1" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0003" x="0" y="676" width="383" height="290" rotated="true" frameX="-1" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0004" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0005" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0006" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0007" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0008" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0009" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0010" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0011" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0012" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up0013" x="0" y="383" width="383" height="293" rotated="true" frameX="-0" frameY="-1" frameWidth="293" frameHeight="385"/>
+	<SubTexture name="victom bf up miss0000" x="383" y="383" width="386" height="288" rotated="true" frameX="-6" frameY="-0" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0001" x="383" y="383" width="386" height="288" rotated="true" frameX="-6" frameY="-0" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0002" x="0" y="0" width="300" height="381" frameX="-0" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0003" x="0" y="0" width="300" height="381" frameX="-0" frameY="-4" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0004" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0005" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0006" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0007" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0008" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0009" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0010" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0011" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0012" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+	<SubTexture name="victom bf up miss0013" x="300" y="0" width="296" height="383" frameX="-2" frameY="-3" frameWidth="300" frameHeight="386"/>
+</TextureAtlas>

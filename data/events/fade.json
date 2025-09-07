@@ -1,0 +1,24 @@
+{
+	"params": [
+        {
+            "name": "color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+        {
+            "name": "time",
+            "type": "String",
+            "defaultValue": "1"
+        },
+        {
+            "name": "reversed",
+            "type": "Bool",
+            "defaultValue": ""
+        },
+        {
+            "name": "cam",
+            "type": "DropDown('camGame', 'camHUD', 'camGame/camHUD')",
+            "defaultValue": "camHUD"
+        }    
+	]
+}

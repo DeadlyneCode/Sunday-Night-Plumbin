@@ -1,0 +1,39 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/yard/" name="yard" zoom="0.35">
+
+	<sprite x="-161" sprite="sky" y="95" zoomfactor="0.5" scale="2" name="ciel"/>
+	<sprite x="-399.999999999997" y="108.000000000002" zoomfactor="0.65" name="buildings_far" sprite="buildings_far" scroll="0.5" scalex="1.7" skewx="-2.12160036645721e-13" scaley="1.7"/>
+	<sprite x="-114" scroll="0.65" sprite="buildings" y="-125" zoomfactor="0.7" name="buildings"/>
+	<sprite x="91" scroll="0.8" sprite="bridge_far" y="310" zoomfactor="0.85" scale="2" name="bridge_far"/>
+	<sprite x="-146" scroll="0.82" sprite="bridge" y="343" zoomfactor="0.9" scale="2" name="bridge"/>
+	<sprite x="-17" sprite="faisceauu" y="-213" alpha="0.65" scale="2" name="faisceauu"/>
+	<sprite x="1807" sprite="faisceauu" y="-213" alpha="0.65" scale="2" name="faisceauu2"/>
+	<sprite x="-380" scroll="0.89" sprite="ladders" y="-53" scale="2.3" name="ladder"/>
+	<sprite x="-129" sprite="floor" y="1624" scale="2.6" name="floor"/>
+	<sprite x="1847" flipY="true" y="1433" sprite="ronds" type="none" scale="2.3" name="rond" angle="180" >
+		
+			
+		<property type="float" name="alpha" value="0"/>
+		
+		
+		<property type="int" name="blend" value="0"/>
+		
+	
+	</sprite>
+	<gf camxoffset="-300" x="1251" y="784"/>
+	<boyfriend camxoffset="-380" x="1757" camyoffset="350" y="786"/>
+	<dad camxoffset="400" x="-247" camyoffset="400" y="459"/>
+	<sprite x="-979" sprite="barrels_in_place" y="703" scale="2" name="barrels_in_place"/>
+	<sprite x="2517" scroll="1.1" sprite="ladder_front" y="1835" scale="2.6" name="ladder_front"/>
+	<sprite flipY="true" x="508.108057011973" sprite="faisceauh" y="-904" type="none" scale="1.05" angle="180" name="faisceauu_stage">
+		
+		<property type="float" name="alpha" value="0"/>
+		
+		<property type="int" name="blend" value="0"/>
+		
+	
+	</sprite>
+
+	<solid x="-1508" y="-1425" width="5000" name="black" color="#000000" height="5000"/>
+	<combo/>
+</stage>

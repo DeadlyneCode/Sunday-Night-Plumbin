@@ -1,0 +1,227 @@
+{
+	"categories": [
+		{
+			"cat": "art",
+			"devs": [
+				{
+					"name": "Raynnard",
+					"image": "raynnard",
+					"twitter": "raynnard",
+					"description": "I'm surrounded by braindead people"
+				},
+				{
+					"name": "Cloud",
+					"image": "cloud",
+					"twitter": "CloudisSleeping",
+					"description": "They told me I would get something in return... I never got it"
+				},
+				{
+					"name": "The Reda Show",
+					"image": "theredashow",
+					"twitter": "The_Reda_Show",
+					"description": "Do I exist ?"
+				},
+				{
+					"name": "Mr Alf",
+					"image": "mralf",
+					"twitter": "45yy561",
+					"description": "I'm Alf, that goofy guy who likes to make fanon exe art and comics and also the writer of a cartoon creepypasta call (The Grim Adventure of Mandy) .I worked on some sprites, 2 backgrounds as well as some ui art for this mod. It fun work on this."
+				},
+				{
+					"name": "Rique",
+					"image": "rique",
+					"twitter": "Rique1702",
+					"description": "Raynnard Viado"
+				},
+				{
+					"name": "Electhra",
+					"image": "electhra",
+					"twitter": "electhra_",
+					"description": "Wawa"
+				},
+				{
+					"name": "Smug",
+					"image": "smug",
+					"twitter": "SmauggersMan",
+					"description": "I was just here for shits and gigs but Ray said otherwise"
+				},
+				{
+					"name": "Marnov / Nugta",
+					"image": "nugta",
+					"description": "I love eating bugs.",
+					"bluesky": "nugtariko.bsky.social",
+					"youtube": "@NugtaStupid"
+				}
+			]
+		},
+		{
+			"cat": "compo",
+			"devs": [
+				{
+					"name": "Deadlyne",
+					"image": "deadlyne",
+					"twitter": "deadlyneuwu",
+					"youtube": "@DeadlyneUwU",
+					"description": "The first coder, the guy who got a dm if they are a new musician, very cool project, i really enjoyed it, peak people. Im better at Minecraft than Rique."
+				},
+				{
+					"name": "Gnaw",
+					"image": "corperator",
+					"twitter": "corperator23",
+					"description": "Mario Brother"
+				},
+				{
+					"name": "Dislamp",
+					"image": "titi",
+					"description": "I really enjoyed working on this project, both musically and in the ideas shared with my friends, with people I don't know, and even with my enemies. Oh yes, I also want to give a huge thanks to my FNF brother, Deadlyne, I hate you.",
+					"twitter": "Dislampmusic",
+					"youtube": "@Dislampmusic"
+				},
+				{
+					"name": "ParadoxPulse",
+					"image": "paradoxpulse",
+					"twitter": "paradoxpulse_",
+					"youtube": "@SUB2PARADOXPULSE.",
+					"description": "Sooooooo retro"
+				},
+				{
+					"name": "Legacy",
+					"image": "Legacy",
+					"description": "0_0"
+				},
+				{
+					"name": "Calitsuki",
+					"image": "calitsuki",
+					"twitter": "Calitsuki",
+					"youtube": "@calitsuki7254",
+					"description": "Moi quand l'urinoir a cote de moi dire 'Apres pluie, avoir tonerre' pendant il se chier dessus"
+				},
+				{
+					"name": "Really random boy",
+					"image": "reallyrandomboy",
+					"description": "Started out as a musician, became the glorified ideas guy,\ni'm gonna get you!"
+				},
+				{
+					"name": "wariofucker69",
+					"image": "wariofucker69",
+					"sfx": "wario",
+					"description": "A chad that didn't wanted to be credited, the one and only OG cataclysmic composer. Bro left the internet. Rest in peace, wariofucker69. (he didnt die btw)"
+				},
+				{
+					"name": "Megaman9009",
+					"image": "megaman9009",
+					"description": "Finally"
+				},
+				{
+					"name": "JustAnto",
+					"image": "anto",
+					"twitter": "JustJust4nt0",
+					"youtube": "@JustJust4nt0",
+					"description": "I was supposed to be a coder but i did more songs than code, idk how to feel about this"
+				}
+			]
+		},
+		{
+			"cat": "code",
+			"devs": [
+				{
+					"name": "Playeah",
+					"image": "playeah",
+					"twitter": "playeah2",
+					"bluesky": "playeah.bsky.social",
+					"description": "i joined this mod cuz *car noise*. fuk u Iro. Ray, when a music about paper mario !!!!"
+				},
+				{
+					"name": "Deadlyne",
+					"image": "deadlyne",
+					"twitter": "deadlyneuwu",
+					"youtube": "@DeadlyneUwU",
+					"description": "again ?"
+				},
+				{
+					"name": "JustAnto",
+					"image": "anto",
+					"twitter": "JustJust4nt0",
+					"youtube": "@JustJust4nt0",
+					"description": "Jokes on you i still did some code"
+				},
+				{
+					"name": "Furo",
+					"image": "furo",
+					"twitter": "furoyt_",
+					"bluesky": "furoyt.xyz",
+					"description": "That one coder that joined SNP to rewrite menus and stuff, Working on the mod was hella fun but i had to drop some tears when the mod was over like pretty much everyone on the team. Maybe the real SNP are the friends we made along the way (im not joking on that)"
+				},
+				{
+					"name": "Marnov / Nugta",
+					"image": "nugta",
+					"description": "I still love eating bugs.",
+					"bluesky": "nugtariko.bsky.social",
+					"youtube": "@NugtaStupid"
+				}
+			]
+		},
+		{
+			"cat": "others",
+			"devs": [
+				{
+					"name": "Mr Moustache",
+					"image": "mrmoustache",
+					"youtube": "@mrmoustache1479",
+					"description": "I blame everything on Playeah."
+				},
+				{
+					"name": "Toika",
+					"image": "toika",
+					"twitter": "ThatOneFRGuy",
+					"description": "I charted 3 songs on this project because my friends wanted me to worked on this."
+				},
+				{
+					"name": "MangeTMor",
+					"image": "MangeTMor",
+					"description": "https://www.youtube.com/watch?v=0kyf-taHa4g"
+				},
+				{
+					"name": "Seifo",
+					"image": "Seifo",
+					"description": "Don't make me touch u vro..."
+				},
+				{
+					"name": "tylerthegamer",
+					"image": "tylerthegame",
+					"twitter": "TylerTheGamer64",
+					"description": "Hamburger"
+				},
+				{
+					"name": "N3d_bird",
+					"image": "n3dbird",
+					"description": "https://tenor.com/view/bruh-gif-23441586"
+				},
+				{
+					"name": "Merchanto",
+					"image": "merch",
+					"twitter": "Merchanto20XX",
+					"description": "He tried to destroy my mod."
+				},
+				{
+					"name": "RazzDazzleDoo",
+					"image": "razz",
+					"bluesky": "razzdazzledoo.nekoweb.org",
+					"description": "cool person, go support her"
+                                },
+				{
+					"name": "Sexy Ironic Men",
+					"image": "iro",
+					"description": "I hope this mod gets a Gacha React Video"   
+				},
+				{
+					"name": "Ghostfesse",
+					"image": "ghostfesse",
+					"description": "I love men",
+					"youtube": "@Ghostfes"
+				}
+			]
+		}
+	]
+}
+	

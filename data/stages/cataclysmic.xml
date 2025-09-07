@@ -1,0 +1,85 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/cataclysmic/" name="cataclysmic" zoom="2">
+	<solid x="-2600" y="-5600" width="10000" color="0x580B31" height="10000" name="red">
+		
+		
+		
+        
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+		
+		
+        
+		
+		
+		<property type="int" value="0" name="blend"/>
+		
+		
+		
+        
+	
+	
+	</solid>
+	<sprite x="-1100" sprite="montagne" y="-225" scale="1.2" scrollx="0.8" name="volcano"/>
+	<sprite scrolly="0.80" x="250" sprite="mouth" y="-400" scale="1.4" scrollx="0.80" name="mouth">
+		
+		
+		
+        
+		
+		
+		<anim loop="true" fps="20" anim="nuage_anim" name="idle"/>
+		
+		
+		
+    
+	
+	
+	</sprite>
+	<sprite x="-1755" sprite="fix" y="416" scale="1.245" name="mx-sol">
+	
+		
+		
+		
+    
+	
+	
+	</sprite>
+	<sprite x="800" sprite="chateau" y="-400" scale="1.2" name="castle">
+		
+		
+		
+    
+	
+	
+	</sprite>
+	<sprite x="825" sprite="drapeau" y="-775" scale="1.2" name="drapo">
+		
+		
+		
+    
+	
+	
+	</sprite>
+	<sprite x="-750" sprite="fissure" y="675" scale="1" name="fissure">
+		
+		
+		
+        
+		
+		
+		<property type="float" value="0" name="alpha"/>
+		
+		
+		
+    
+	
+	
+	</sprite>
+	<dad camxoffset="400" x="-450" camyoffset="50" y="-230"/>
+	<girlfriend scrolly="1" x="1600" camxoffset="-1250" y="100" scale="0.8" scrollx="1"/>
+	<boyfriend scale="0.8" camxoffset="-100" x="1200" y="100"/>
+	<combo/>
+</stage>

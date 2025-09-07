@@ -1,0 +1,28 @@
+{
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "Quand le silence se mit a saigner"
+	},
+	"pause": {
+		"composer": "Dislamp & Legacy",
+		"imageChangeData": [],
+		"image": "Maltigi"
+	},
+	"opponentModeAllowed": true,
+	"icon": "maltigi",
+	"difficulties": [
+		"normal"
+	],
+	"end": {
+		"endColor": "#7EC01F",
+		"midColor": "#7CAE44",
+		"startColor": "#67B630",
+		"fadeColor": "#288D00"
+	},
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Earache",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 165
+}

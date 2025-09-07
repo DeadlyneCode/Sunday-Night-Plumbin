@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="250" y="720" sprite="bftoadphase2" scale="0.4" flipX="true" camx="300" camy="-70" isPlayer="true" icon="bf" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="bas0" x="-33" y="-18"/>
+	<anim name="singUP" anim="haut0" x="-1" y="44"/>
+	<anim name="singRIGHT" anim="droite0" x="29" y="9"/>
+	<anim name="singLEFT" anim="gauche0" x="43" y="-3"/>
+	<anim name="singDOWNmiss" anim="bas miss0" x="-32.5" y="-14.5"/>
+	<anim name="singUPmiss" anim="haut miss" x="5.5" y="44"/>
+	<anim name="singRIGHTmiss" anim="droite miss0" x="41.5" y="8"/>
+	<anim name="singLEFTmiss" anim="gauche miss0" x="39" y="-4"/>
+</character>

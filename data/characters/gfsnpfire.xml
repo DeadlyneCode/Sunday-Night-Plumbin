@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gf_snpfire" scale="1.1" icon="gf" color="#A5004D" isGF="true">
+	<anim name="danceLeft" anim="idle" y="-9" fps="20" indices="0..16"/>
+	<anim name="danceRight" anim="idle" y="-9" fps="20" indices="17..34"/>
+</character>

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" icon="victombf" camx="80" y="280" isGF="false" camy="-40" color="#60C5ED" isPlayer="true" flipX="true" holdTime="6.1" sprite="bffreefallingpart2">
+	<anim x="0" loop="false" y="0" fps="24" anim="freefall bf idle" name="idle"/>
+	<anim x="-3" loop="false" y="-4" fps="24" anim="freefall bf down0" name="singDOWN"/>
+	<anim x="-14" loop="false" y="28" fps="24" anim="freefall bf up0" name="singUP"/>
+	<anim x="-9" loop="false" y="-3" fps="24" anim="freefall bf left0" name="singLEFT"/>
+	<anim x="-1" loop="false" y="3" fps="24" anim="freefall bf down miss0" name="singDOWNmiss"/>
+	<anim x="1" loop="false" y="1" fps="24" anim="freefall right0" name="singRIGHT"/>
+	<anim x="-2" loop="false" y="4" fps="24" anim="freefall right miss0" name="singRIGHTmiss"/>
+	<anim x="-11" loop="false" y="28" fps="24" anim="freefall bf up miss0" name="singUPmiss"/>
+	<anim x="-4" loop="false" y="2" fps="24" anim="freefall bf left miss0" name="singLEFTmiss"/>
+</character>

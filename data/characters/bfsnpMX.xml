@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="230" sprite="BFSNPMX" flipX="true" camx="80" camy="-40" isPlayer="true" icon="bfmx" color="#60C5ED" holdTime="7" isGF="false">
+	<anim name="idle" anim="idle" x="1" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas0" x="-5" y="4" fps="24" loop="false"/>
+	<anim name="singUP" anim="haut0" x="15" y="199" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="droite0" x="-4" y="1" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="gauche0" x="51" y="1" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="bas miss0" x="15" y="-48" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="haut miss0" x="14" y="47" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="gauche miss0" x="179" y="1" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="droite miss0" x="-87" y="-10" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

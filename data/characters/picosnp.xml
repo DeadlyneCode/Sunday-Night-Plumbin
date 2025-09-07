@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="280" sprite="picosnp" flipX="true" camx="80" camy="-40" isPlayer="true" icon="pico" color="#3DF032" holdTime="9.1" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas0" x="9" y="-1" fps="24" loop="false"/>
+	<anim name="singUP" anim="haut0" x="3" y="42" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="droite0" x="-2" y="-2" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="gauche0" x="29" y="-1" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="Pico down miss" x="-21" y="-45" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="Pico up miss" x="-41" y="42" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="Pico left miss" x="43" y="-53" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="Pico right miss" x="-95" y="-56" fps="24" loop="false"/>
+	<anim name="shoot" anim="shoot" x="122" y="47" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

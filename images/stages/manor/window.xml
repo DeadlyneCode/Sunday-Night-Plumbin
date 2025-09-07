@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Tex-Packer-EX v0.6.8 https://strawberrysage.github.io/tex-packer-ex
+-->
+<TextureAtlas imagePath="window.png" width="538" height="826">
+  <SubTexture name="1" x="0" y="0"  width="538" height="826" frameX="-764" frameY="-104" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="2" x="0" y="0"  width="538" height="826" frameX="-764" frameY="-104" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="3" x="0" y="0"  width="538" height="826" frameX="-764" frameY="-104" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

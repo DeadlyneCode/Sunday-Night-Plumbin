@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="cursed gf" icon="gf" isGF="true">
+	<anim name="danceLeft" anim="cursed gf" x="0" y="-9" fps="24" loop="false" indices="30,0..14"/>
+	<anim name="danceRight" anim="cursed gf" x="0" y="-9" fps="24" loop="false" indices="15..29"/>
+</character>

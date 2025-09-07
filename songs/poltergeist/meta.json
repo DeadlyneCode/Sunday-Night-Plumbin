@@ -1,0 +1,28 @@
+{
+	"customValues": {
+		"codename": "Manoir"
+	},
+	"color": "#FFFFFF",
+	"pause": {
+		"composer": "Dislamp, Calitsuki, Deadlyne & Mr Moustache",
+		"imageChangeData": [],
+		"image": "elh"
+	},
+	"opponentModeAllowed": true,
+	"icon": "elh",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": true,
+	"end": {
+		"endColor": "#6D9AB2",
+		"midColor": "#65AF94",
+		"startColor": "#96CBBA",
+		"fadeColor": "#637B70"
+	},
+	"stepsPerBeat": 4,
+	"displayName": "Poltergeist",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 130
+}

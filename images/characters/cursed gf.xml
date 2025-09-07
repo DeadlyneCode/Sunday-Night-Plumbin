@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="cursed gf.png" width="414" height="2124">
+	<SubTexture name="cursed gf0000" x="0" y="0" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0001" x="0" y="0" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0002" x="0" y="708" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0003" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0004" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0005" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0006" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0007" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0008" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0009" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0010" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0011" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0012" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0013" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0014" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0015" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0016" x="0" y="0" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0017" x="0" y="0" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0018" x="0" y="708" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0019" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0020" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0021" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0022" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0023" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0024" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0025" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0026" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0027" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0028" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0029" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+	<SubTexture name="cursed gf0030" x="0" y="1416" width="414" height="708" frameX="-0" frameY="-0" frameWidth="414" frameHeight="708"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="110" y="80" sprite="grosdiable" camx="-190" camy="130" icon="devil" holdTime="10.1" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="vore" anim="ouvre" x="0" y="0" fps="24" loop="false"/>
+	<anim name="idle_alt" anim="anim" x="0" y="0" fps="24" loop="false" indices="14"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

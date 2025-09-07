@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="wariodie" scale="1.7" icon="wariodie" color="#FFC518" isGF="false">
+	<anim name="idle" anim="idle" x="-5" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="haut" x="15" y="18" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="gauche" x="126" y="34" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="droite" x="-22" y="23" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas" x="40" y="0" fps="24" loop="false"/>
+	<anim name="jump" anim="oh my god" x="-15" y="265" fps="24" loop="false"/>
+	<anim name="waaa" anim="waaa" x="-15" y="270" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="waaa" x="-15" y="270" fps="24" loop="false" indices="15"/>
+</character>

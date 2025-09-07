@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="-25" icon="zt" y="385" isGF="false" scale="1.5" isPlayer="false" sprite="zombietoad">
+	<anim x="-20" loop="false" y="-9" fps="24" anim="fakertoad" name="idle"/>
+	<anim x="39" loop="true" y="5" fps="24" anim="idle" name="idle-alt"/>
+	<anim x="43" loop="false" y="17" fps="24" anim="up" name="singUP"/>
+	<anim x="101" loop="false" y="10" fps="24" anim="left" name="singLEFT"/>
+	<anim x="25" loop="false" y="-28" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="40" loop="false" y="-107" fps="24" anim="down" name="singDOWN"/>
+	<anim x="6" loop="false" y="-10" fps="24" anim="anim" name="transi"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

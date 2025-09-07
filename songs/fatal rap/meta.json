@@ -1,0 +1,30 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "wariodie",
+	"difficulties": [
+		"normal"
+	],
+	"parsedColor": -1,
+	"end": {
+		"endColor": "#FFAC3E",
+		"midColor": "#F0A90A",
+		"startColor": "#FF9406",
+		"fadeColor": "#976800"
+	},
+	"customValues": {
+		"codename": "La fatalitee de ma symphonie"
+	},
+	"color": "#FFFFFF",
+	"name": "fatal rap",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Fatal Rap",
+	"beatsPerMeasure": 4,
+	"pause": {
+		"composer": "Gnaw & Dislamp",
+		"imageChangeData": [],
+		"image": "WarioDie"
+	},
+	"needsVoices": true,
+	"bpm": 100
+}

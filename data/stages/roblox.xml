@@ -1,0 +1,38 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/roblox/" zoom="0.7" name="roblox">
+	<combo/>
+	<sprite x="0" y="0" sprite="roblox" scale="1.5" name="bg">
+
+		<property type="float" name="alpha" value="1"/>
+
+	</sprite>
+	<girlfriend x="800" scrolly="1" y="-100" scrollx="1"/>
+	<sprite x="-38" y="-255" sprite="door" scale="2.8" name="door">
+	
+		<property type="float" name="alpha" value="0"/>
+	
+	</sprite>
+	<dad x="300" y="-50"/>
+	<sprite x="258" y="328" sprite="shadow" alpha="0" scalex="2.8" scaley="2.7" name="shadow">
+     <property type="int" value="9" name="blend"/>
+	</sprite>
+
+	<boyfriend x="1500" camxoffset="-1200" y="0" camyoffset="50" scale="2"/>
+
+
+	<sprite x="-300" scale="1.5" sprite="house" name="house">
+		<property type="float" name="alpha" value="1"/>
+	</sprite>
+	<solid x="-1600" y="-600" width="10000" name="black" height="10000" color="0x000000">
+		<property type="float" name="scrollFactor.x" value="0"/>
+		<property type="float" name="scrollFactor.y" value="0"/>
+		<property type="float" name="alpha" value="1"/>
+	</solid>
+
+	<solid x="-1600" y="-600" width="10000" name="white" height="10000" color="0xffffff">
+		<property type="float" name="scrollFactor.x" value="0"/>
+		<property type="float" name="scrollFactor.y" value="0"/>
+		<property type="float" name="alpha" value="0"/>
+		<property type="int" value="0" name="blend"/>
+	</solid>
+</stage>

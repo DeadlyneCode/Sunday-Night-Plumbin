@@ -1,0 +1,18 @@
+{
+	"gameoverType": "Scripted",
+	"deathMusic": "gameover/elh gameover",
+	"deathSfx": "gameover/elhsfx",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": true
+	},
+	"retrySfx": "gameover/elh retry sfx",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": ""
+	},
+	"sfxDelay": 0,
+	"scriptName": "gameover/elh.hx",
+	"musicDelay": 6.5
+}

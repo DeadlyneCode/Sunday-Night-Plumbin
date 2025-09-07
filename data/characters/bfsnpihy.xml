@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="280" sprite="BFSNPihy" flipX="true" camx="80" camy="-40" isPlayer="true" icon="bf" color="#60C5ED" holdTime="7" isGF="false">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="bas0" x="1" y="-4"/>
+	<anim name="singUP" anim="haut0" x="-5" y="49"/>
+	<anim name="singRIGHT" anim="droite0" x="-5"/>
+	<anim name="singLEFT" anim="gauche0" x="47"/>
+	<anim name="singDOWNmiss" anim="bas miss0" x="15" y="-44"/>
+	<anim name="singUPmiss" anim="haut miss0" x="14" y="44"/>
+	<anim name="singLEFTmiss" anim="gauche miss0" x="178"/>
+	<anim name="singRIGHTmiss" anim="droite miss0" x="-91" y="-7"/>
+	<anim name="dodge" anim="esquive0" x="50" y="22"/>
+	<anim name="dodgeAlt" anim="esquivealt" x="12" y="-4"/>
+</character>

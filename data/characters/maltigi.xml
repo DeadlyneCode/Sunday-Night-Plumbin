@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="maltigi" y="180" isGF="false" scale="2" camy="300" color="#68FE00" isPlayer="false" holdTime="10.1" sprite="maltigi">
+	<anim x="0" loop="false" y="0" fps="24" anim="poses/Idle" name="idle"/>
+	<anim x="24" loop="false" y="-181" fps="24" anim="poses/down" name="singDOWN"/>
+	<anim x="249" loop="false" y="134" fps="24" anim="poses/up" name="singUP"/>
+	<anim x="99" loop="false" y="115" fps="24" anim="poses/right" name="singRIGHT"/>
+	<anim x="177" loop="false" y="-7" fps="24" anim="poses/left" name="singLEFT"/>
+</character>

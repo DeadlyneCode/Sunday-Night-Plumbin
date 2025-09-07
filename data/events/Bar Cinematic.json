@@ -1,0 +1,50 @@
+{
+	"params": [
+        {
+            "name": "time",
+            "type": "String",
+            "defaultValue": "1"
+        },
+
+        {
+            "name": "adapt to bpm",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+
+        {
+            "name": "show bars (uncheck to hide it again)",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+
+        {
+            "name": "hide hud (uncheck to show it again)",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+
+        {
+            "name": "hide opp strum (uncheck to show it again)",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+
+        {
+            "name": "hide player strum (uncheck to show it again)",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+        {
+            "name": "ease",
+            "type": "DropDown('linear','back', 'bounce', 'circ', 'cube', 'sine', 'quint', 'quart', 'quad', 'expo', 'elastic')",
+            "defaultValue": "back"
+        },
+
+        {
+            "name": "in",
+            "type": "DropDown('In', 'InOut', 'Out')",
+            "defaultValue": "In"
+        }
+	]
+}

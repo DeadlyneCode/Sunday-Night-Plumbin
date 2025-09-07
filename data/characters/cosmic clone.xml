@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character y="70" sprite="clone" camy="130" icon="cosclone" holdTime="6.3" isGF="false">
+	<anim name="idle" anim="idle" x="35" y="-95" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="gauche" x="120" y="-129" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="bas" x="82" y="-212" fps="24" loop="false"/>
+	<anim name="singUP" anim="haut" x="58" y="-70" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="droite" x="29" y="-104" fps="24" loop="false"/>
+	<anim name="meurt" anim="meurs" x="186" y="-127" fps="24" loop="false"/>
+	<anim name="tue" anim="tue" x="449" y="538" fps="19" loop="false"/>
+	<anim name="hi" anim="hi" x="175" y="780" fps="24" loop="false"/>
+	<anim name="dance" anim="dance0" x="214" y="-117" fps="24" loop="true"/>
+	<anim name="dancedie" anim="dancedie0" x="249" y="17" fps="24" loop="false"/>
+	<anim name="dancedieb" anim="dancedieb" x="204" y="-129" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

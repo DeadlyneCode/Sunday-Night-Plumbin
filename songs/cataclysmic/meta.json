@@ -1,0 +1,33 @@
+{
+	"color": "#000000",
+	"customValues": {
+		"codename": "Tremblement de Terre"
+	},
+	"pause": {
+		"composer": "Dislamp & Wariofucker69",
+		"imageChangeData": [
+			{
+				"step": 384,
+				"newImage": "mx"
+			}
+		],
+		"image": "pipecrawler"
+	},
+	"opponentModeAllowed": false,
+	"icon": "mx",
+	"difficulties": [
+		"normal"
+	],
+	"end": {
+		"endColor": "#A73E9F",
+		"midColor": "#883368",
+		"startColor": "#973171",
+		"fadeColor": "#832666"
+	},
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Cataclysmic",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 118
+}

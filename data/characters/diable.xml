@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="260" y="-620" sprite="diable" scale="1.6" camx="200" camy="850" icon="devil" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="pose/idle" x="-100" y="380" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="pose/left" x="307" y="-174" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="pose/down" x="91" y="-267" fps="24" loop="false"/>
+	<anim name="singUP" anim="pose/up" x="129" y="145" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="pose/right" x="-136" y="-203" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="true"/>
+	</meta>
+</character>

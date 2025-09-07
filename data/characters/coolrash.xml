@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-360" y="-120" scale="1.2" camx="350" camy="575" icon="marioexe" color="#000000" holdTime="12" isGF="false">
+	<anim name="idle" anim="ZPOSE/idle" x="-100" y="-160"/>
+	<anim name="singLEFT" anim="ZPOSE/left" x="198" y="119"/>
+	<anim name="singDOWN" anim="ZPOSE/down" x="-104" y="-77"/>
+	<anim name="singUP" anim="ZPOSE/up" x="141" y="-47"/>
+	<anim name="singRIGHT" anim="ZPOSE/right" x="128" y="-95"/>
+</character>

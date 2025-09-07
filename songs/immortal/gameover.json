@@ -1,0 +1,18 @@
+{
+	"gameoverType": "PNG",
+	"deathMusic": "gameover/immortalover",
+	"deathSfx": "gameover/loss_sound",
+	"videoOptions": {
+		"videoName": "",
+		"videoHasSound": true,
+		"videoLooping": false
+	},
+	"retrySfx": "gameover/lossConfirm_sound",
+	"pngOptions": {
+		"fadeDuration": 1,
+		"imageName": "stages/immortal/coolrash-retry"
+	},
+	"sfxDelay": 0,
+	"scriptName": "",
+	"musicDelay": 1
+}

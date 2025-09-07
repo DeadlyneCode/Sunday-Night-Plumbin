@@ -1,0 +1,28 @@
+{
+	"color": "#9271FD",
+	"customValues": {
+		"codename": "Abhorrence"
+	},
+	"pause": {
+		"composer": "Legacy",
+		"image": "ihy",
+		"imageChangeData": []
+	},
+	"opponentModeAllowed": false,
+	"icon": "luigi",
+	"difficulties": [
+		"NORMAL"
+	],
+	"end": {
+		"endColor": "#EA4503",
+		"fadeColor": "#DE2200",
+		"startColor": "#DE3500",
+		"midColor": "#E93B05"
+	},
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Betrayed",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 109
+}

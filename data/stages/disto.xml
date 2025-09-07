@@ -1,0 +1,34 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/disto/" name="disto" zoom="0.5">
+	<sprite x="-900" scroll="0.75" sprite="caillou_1" y="-2000" scale="1.3" name="roc1"/>
+	<sprite x="-900" scroll="0.75" sprite="caillou_2" y="-2000" scale="1.3" name="roc2"/>
+	<sprite x="-900" scroll="0.75" sprite="caillou_3" y="-2000" scale="1.3" name="roc3"/>
+	<sprite x="-900" scroll="0.75" sprite="main" y="-700" alpha="0.2" scale="1.3" name="main"/>
+	<sprite x="-900" scroll="0.7" sprite="FOG" y="-700" scale="1" name="fogback"/>
+	<sprite x="-900" scroll="0.5" sprite="ciel" y="-700" scale="1.3" name="ciel"/>
+	<sprite x="-900" scroll="0.5" sprite="FOG" y="-700" scale="1" name="fog">
+		<property name="alpha" type="float" value="0.6"/>
+	</sprite>
+	<sprite x="-58" scroll="0.75" sprite="platform1" y="-134" scale="1.3" name="platforms"/>
+	<sprite x="-1031.94488780997" scroll="0.75" sprite="platforms2" y="-6.23670612762348" scalex="0.921747371610514" scaley="1.35764106506383" name="platform2"/>
+	<sprite x="1109" scroll="0.75" sprite="platforms3" y="7" scale="1.3" name="platform3"/>
+	<girlfriend scale="0.9" x="200" scroll="0.75" y="-360"/>
+	<sprite x="-977" scroll="0.75" sprite="hubert" y="-84" scale="0.37" name="hubert"/>
+	<sprite x="1390" scroll="0.75" sprite="Albert" y="-95" scale="0.8" name="Albert"/>
+	<sprite x="-900" sprite="sol" y="500" scale="1.3" name="sol"/>
+	
+	<boyfriend camxoffset="-300" x="550" camyoffset="-150" y="222"/>
+
+	<solid name="black" x="-1600" y="-600" width="10000" height="10000" color="0x000000">
+		<property name="scrollFactor.x" type="float" value="0"/>
+		<property name="scrollFactor.y" type="float" value="0"/>
+		<property name="alpha" type="float" value="0.0000000001"/>
+	</solid>
+	<dad camxoffset="-20" x="-280" camyoffset="-300" y="250"/>
+	<solid name="black2" x="-1600" y="-600" width="10000" height="10000" color="0x000000">
+		<property name="scrollFactor.x" type="float" value="0"/>
+		<property name="scrollFactor.y" type="float" value="0"/>
+		<property name="alpha" type="float" value="0.0000000001"/>
+	</solid>
+	<sprite x="-1300" sprite="effect" y="-550" scale="1.3" name="effect"/>
+</stage>

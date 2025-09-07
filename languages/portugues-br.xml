@@ -1,0 +1,242 @@
+<lang name="Português (BR)">
+    <!-- Warning Menu -->
+    <warning0_title value="Idiomas"/>
+    <warning0_desc value="Esse mod disponibiliza diversos idiomas para auxiliar na compreensão do jogador."/>
+    <warning1_title value="Aviso de Luzes Piscantes!"/>
+    <warning1_desc value="O conteúdo a seguir possui luzes que piscam e cores saturadas."/>
+    <warning2_title value="Configurações"/>
+    <warning2_desc value="Se tiver algum problema de performance, é recomendado que desabilite as shaders nas Opções."/>
+    
+    <!-- Main Menu -->
+    <mainmenu0 value="Jogar"/>
+    <mainmenu1 value="Potenciadores"/>
+    <mainmenu2 value="Créditos"/>
+    <mainmenu3 value="Opções"/>
+
+    <!-- Freeplay -->
+    <freeplay_score value="Pontuação: {0}"/>
+    <freeplay_misses value="Erros: {0}"/>
+    <freeplay_hes_waiting value="Ele está esperando por você."/>
+
+    <freeplay_intro_dialogue1 value="Saudações, #Azulzinho#"/>
+    <freeplay_intro_dialogue2 value="Como pode ver,"/>
+    <freeplay_intro_dialogue3 value="Nosso grande amigo Mario desapareceu."/>
+    <freeplay_intro_dialogue4 value="Se deseja saber"/>
+    <freeplay_intro_dialogue5 value="Quais são minhas intenções e..."/>
+    <freeplay_intro_dialogue6 value="Salvar *nosso* encanador bigodudo favorito"/>
+    <freeplay_intro_dialogue7 value="Você primeiro vai precisar se lidar com meus"/>
+    <freeplay_intro_dialogue8 value="*Amigos.*"/>
+    <freeplay_intro_dialogue9 value="*Amigos Monstruosos.*"/>
+    <freeplay_intro_dialogue10 value="Escondidos nesses lindos quadros,"/>
+    <freeplay_intro_dialogue11 value="E então..."/>
+    <freeplay_intro_dialogue12 value="Você se juntará a mim na sua"/>
+    <freeplay_intro_dialogue13 value="Você se juntará a mim na sua *Última*"/>
+    <freeplay_intro_dialogue14 value="Você se juntará a mim na sua *Última Jornada*"/>
+    <freeplay_intro_dialogue15 value="Em meu mundo,"/>
+    <freeplay_intro_dialogue16 value="Em meu mundo, *Sorte não vai te salvar.*"/>
+
+    <freeplay_dp_dialogue1 value="Bem"/>
+    <freeplay_dp_dialogue2 value="Acredito que a hora chegou"/>
+    <freeplay_dp_dialogue3 value="Você é bem perspicaz, te digo isso."/>
+    <freeplay_dp_dialogue4 value="Mas não se esqueça..."/>
+    <freeplay_dp_dialogue5 value="*Qualquer alma pode ser destruída...*"/>
+    <freeplay_dp_dialogue6 value="Venha."/>
+    <freeplay_dp_dialogue7 value="*Me mostre que vale a pena te quebrar em pedaços.*"/>
+
+    <freeplay_final value="Nós lhe parabenizamos pelas suas vitórias.\nMas o mal apenas começou a surgir, essa história está longe de acabar...\n\nEnquanto isso, músicas bônus estão disponíveis para você."/>
+
+    <!-- Power Ups -->
+    <powerup_title value="Menu de Potenciadores"/>
+    <powerup_current value="Potenciador Atual: {0}"/>
+    <powerup_scoremult value="Multiplicador de Pontuação: {0}x"/>
+
+    <powerup0_name value="Nenhum"/>
+    <powerup0_desc value="Sem Efeito"/>
+    <powerup1_name value="Flor de Fogo"/>
+    <powerup1_desc value="Velocidade das notas multiplicada em x1.5"/>
+    <powerup2_name value="Flor de Gelo"/>
+    <powerup2_desc value="Velocidade das notas diminuida em x0.5"/>
+    <powerup3_name value="Chapéu de Metal"/>
+    <powerup3_desc value="Você nao pode sofrer dano."/>
+    <powerup4_name value="Cogumelo Venenoso"/>
+    <powerup4_desc value="Morte instantânea ao errar qualquer nota."/>
+    <powerup5_name value="Cogumelo Retrô"/>
+    <powerup5_desc value="Tão Retrô....."/>
+
+    <!-- Pause Menu -->
+    <pause_resume value="Continuar"/>
+    <pause_restart value="Reiniciar Musica"/>
+    <pause_options value="Opções"/>
+    <pause_powerup value="Potenciadores"/>
+    <pause_exit value="Voltar ao Menu"/>
+    <pause_charter value="Voltar ao Editor de Chart."/>
+
+    <pause_disto_resume value="Volte Atrás."/>
+    <pause_disto_restart value="Tentar Novamente"/>
+    <pause_disto_options value="Opções"/>
+    <pause_disto_powerup value="Trapaceiro"/>
+    <pause_disto_exit value="Fraco"/>
+    <pause_disto_charter value="Chart tá difícil?"/>
+
+    <robloxpause00 value="Pessoas"/>
+    <robloxpause01 value="Config."/>
+    <robloxpause02 value="Poderes"/>
+
+    <robloxpause10 value="Sair do Jogo"/>
+    <robloxpause11 value="Reiniciar Jogador"/>
+    <robloxpause12 value="Continuar Jogo"/>
+
+    <!-- Result Screen -->
+    <results_title value="RESULTADOS"/>
+    <results_score value="PONTOS: {0}"/>
+    <results_misses value="ERROS: {0}"/>
+    <results_exit value="Sair"/>
+    <results_retry value="Reiniciar"/>
+    
+    <!-- Gallery -->
+    <gallery_author value="Por {0}"/>
+    
+    <!-- HUD Texts and Others -->
+    <hud_text value="P: {0} | E: {1}"/>
+    <robloxhud_text_score value="Pontos"/>
+    <robloxhud_text_misses value="Erros"/>
+    <yt_hud_text value="Pontuação: {0} | Erros: {1}"/>
+
+    <fatal_play_here value="Você está aqui!"/>
+
+    <iceberg_speak_1 value="Lá vou eu!"/>
+    <iceberg_speak_2 value="Acha isso divertido?"/>
+    <iceberg_speak_3 value="Você deve ser doidinho!"/>
+    <iceberg_speak_4 value="Fogo!!"/>
+    
+    <blessing_speak_1 value="Você gosta de Jesus?"/>
+    <blessing_speak_2 value="Você já aceitou Jesus em sua vida?"/>
+    <blessing_speak_3 value="Jesus ama cada um de nós"/>
+    <blessing_speak_4 value="Seja guiado por Jesus nosso salvador"/>
+    <blessing_speak_5 value="Jesus perdoa todos os pecadores"/>
+
+    <betrayed_dodge_bind value="Sua tecla de Desviar é *{0}*"/>
+
+    <heartless_speak1 value="Então"/>
+    <heartless_speak2 value="Então me"/>
+    <heartless_speak3 value="Então me enfrente."/>
+    <heartless_speak4 value="UMA"/>
+    <heartless_speak5 value="UMA ÚLTIMA"/>
+    <heartless_speak6 value="UMA ÚLTIMA VEZ!"/>
+
+    <heartless_bulletwarning1 value="APERTE *{0}* QUANDO A BALA ESTIVER CHEIA"/>
+
+    <!-- LOADING SCREENS!! -->
+    <immortal_intro value="Nunca duvide do Diabo."/>
+
+    <betrayed_intro value="Previsão do tempo: Bolas de Fogo"/>
+    <betrayed_intro2 value="Mantenha-se atento, o desconhecido se prolifera abaixo de você."/>
+
+    <cataclyscmic_intro value="Rostos familiares nem sempre significam segurança..."/>
+    <cataclyscmic_intro2 value="Nunca confie em coisas em locais estranhos."/>
+    <cataclyscmic_intro3 value="Não vai a lugar NENHUM com essa Inocência."/>
+
+    <cosmic_copy_intro value="Aprecie o momento presente, nunca poderá voltar atrás"/>
+    <cosmic_copy_intro2 value="Super Funkin' Galaxy Reference????"/>
+
+    <infernal_intro value="Ele te odeia."/>
+    <infernal_intro2 value="Se inscreva no canal e ative o sininho das notificações"/>
+    <infernal_intro3 value="Moggador dos betinhas"/>
+
+    <iceberg_intro value="O objetivo é simples: Corra."/>
+    <iceberg_intro2 value="Toda cópia de Sunday Night Plumbin' é personalizada."/>
+
+    <disturbing_presence_intro value="Me Enfrente."/>
+    <disturbing_presence_intro2 value="Boa Sorte."/>
+    <disturbing_presence_intro3 value="Você não é herói algum."/>
+    <disturbing_presence_intro4 value="Vamos acabar com essa brincadeirinha."/>
+
+    <cracked_egg_intro value="Não se pode fazer omeletes sem quebrar alguns ovos."/>
+    <cracked_egg_intro2 value="Você vai até ele, ele nunca vem até você."/>
+
+    <blessing_intro value="O Senhor trabalha de maneiras misteriosas"/>
+
+    <golden_hammer_intro value="Nova York sempre tem que lidar com coisas assim"/>
+
+    <fatal_rap_intro value="Armas Nucleares são sempre fatais"/>
+
+    <earache_intro value="Fique de olho para possíveis Maltigis"/>
+    <earache_intro2 value="AAAAAAAAAAAAAAGGHHHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGHHHHHGHGGHHHHHHHGAHHHHHHHHHHHHHH"/>
+
+    <heartless_intro value="Um novo reinado surge diante de nós. Ajoelhe-se."/>
+    <heartless_intro2 value="Com o estado atual do Reino, ataques surgem de todos os lados."/>
+
+    <silent_intro value="Você não consegue achar a saída, talvez pedir por direções pode ajudar?"/>
+    <silent_intro2 value="Você já viu esse canto antes."/>
+    <silent_intro3 value="SHHHH! POR FAVOR NÃO FAÇA BARULHO NOS CORREDORES!"/>
+
+    <poltergeist_intro value="Ainda há um fantasma a ser enfrentado"/>
+    <poltergeist_intro2 value="Restos aparecem em várias formas."/>
+    <poltergeist_intro3 value="Perdido e completamente sozinho, numa Mansão que parece sem fim."/>
+
+    <!-- Options -->
+    <optionsTree.controls-name value="Controles"/>
+    <optionsTree.gameplay-name value="Gameplay"/>
+    <optionsTree.appearance-name value="Aparencia"/>
+    <optionsTree.snpOptions-name value="Opções do SNP"/>
+    <optionsTree.back-name value="Voltar"/>
+
+    <snpOptions_generalSettings_title value="Configurações Gerais"/>
+    <snpOptions_generalSettings_desc value="Configurações de praticamente tudo no mod"/>
+    <snpOptions_language_title value="Idioma"/>
+    <snpOptions_language_desc value="Idioma em que textos estarão escritos"/>
+    <snpOptions_musicType_title value="Variação de Música"/>
+    <snpOptions_musicType_desc value="A Variação da música que toca no Menu Principal"/>
+    <snpOptions_musicType_default value="Padrão"/>
+    <snpOptions_musicType_intense value="Intenso"/>
+    <snpOptions_warningState_title value="Avisos do Começo"/>
+    <snpOptions_warningState_desc value="Ativar / Desativar os avisos" />
+
+    <snpOptions_shaderSettings_title value="Configurações de Shaders"/>
+    <snpOptions_shaderSettings_desc value="Ajuste-as para melhor performance"/>
+    <snpOptions_glowShaders_title value="Shaders de Brilho"/>
+    <snpOptions_glowShaders_desc value="Ativar / Desativar Shaders de Brilho"/>
+    <snpOptions_heatShaders_title value="Shaders de Calor"/>
+    <snpOptions_heatShaders_desc value="Ativar / Desativar Shaders de Ondas de Calor"/>
+    <snpOptions_saturationShaders_title value="Shaders de Saturação"/>
+    <snpOptions_saturationShaders_desc value="Ativar / Desativar Shaders de Saturação"/>
+    <snpOptions_tvShaders_title value="Shaders de TV"/>
+    <snpOptions_tvShaders_desc value="Ativar / Desativar Shaders de TV"/>
+    <snpOptions_blurShaders_title value="Shaders de Borrão"/>
+    <snpOptions_blurShaders_desc value="Ativar / Desativar Shaders de Borrão"/>
+
+    <snpOptions_gameplaySettings_title value="Configurações de Gameplay"/>
+    <snpOptions_gameplaySettings_desc value="Configurações de Gameplay (inacreditável, eu sei)"/>
+    <snpOptions_particles_title value="Partículas"/>
+    <snpOptions_particles_desc value="Ativar / Desativar Partículas" />
+    <snpOptions_flashing_title value="Flashes de Camera"/>
+    <snpOptions_flashing_desc value="Ativar / Desativar Flashes de Camera" />
+    <snpOptions_waitTimer_title value="Timer de Espera"/>
+    <snpOptions_waitTimer_desc value="Mostra o tempo que falta até você precisar acertar alguma nota" />
+    
+    <snpOptions_findLuigi_title value="Configurações do 'Find Luigi'"/>
+    <snpOptions_findLuigi_desc value="Você achou o Luigi"/>
+    <snpOptions_foundTheLuigi_title value="Luigi encontrado"/>
+    <snpOptions_foundTheLuigi_desc value="Desative para trazer o Minigame de volta"/>
+    <snpOptions_alwaysLuigi_title value="Sempre achar o Luigi"/>
+    <snpOptions_alwaysLuigi_desc value="Ative para sempre ter que jogar o Minigame para entrar em Editores"/>
+
+    <snpOptions_toggleStatus_on value="On"/>
+    <snpOptions_toggleStatus_off value="Off"/>
+    <snpOptions_shaderConsuption_low value="Consumo Baixo"/>
+    <snpOptions_shaderConsuption_medium value="Consumo Médio"/>
+    <snpOptions_shaderConsuption_high value="Consumo Alto"/>
+
+    <!-- Startup Cutscene -->
+    <cutscene_text1 value="Nossa história começa não muito tempo atrás, paz e equilíbrio\rprosperava no Reino Cogumelo, do qual já participou de inúmeras aventuras\re diversos problemas ao longo dos anos...\rE, à primeira vista, não haviam ameaças eminentes, nenhuma Princesa\rpara resgatar, sem estrelas para procurar..." />
+    <cutscene_text2 value="As coisas estavam calmas fazia tempo, de uma maneira que chegava a ser anormal.\rPorém, isso não preocupava nossos grandes heróis, que estavam muito ocupados celebrando no Castelo.\rAs aventuras com certeza iriam retomar alguma hora, mas no momento,\rnão havia nenhum motivo para se agoniar.\rPorém, quando menos esperavam, um enorme Buraco Negro surge\rnos céus do Reino." />
+    <cutscene_text3 value="Essa atração era mais do que apenas visual, enquanto o Buraco Negro começava a\raspirar todos em seu caminho, incluindo nossos heróis, Mario e Luigi,\rdos quais estavam surpresos por uma ameaça tão inesperada.\rIsso não era um plano do Bowser, Antasma, ou da Princesa Shroob...\rUm novo mal acabava de surgir e atacava imprevisivelmente, ninguém conseguiria\rantecipá-lo. Seja lá o que causou isso, obteve sucesso." />
+    <cutscene_text4 value="E aqui nós estamos,\ra prosperidade e equilíbrio habitava no Reino novamente,\rmas qual o ponto se ninguém estava ali para celebrar?\rTodos os habitantes haviam sido aspirados pelo Buraco Negro, não\rhavia nada além de construções que antes acomodavam nossas aventuras.\rTodas das quais agora não eram nada além de resquícios,\ralém de um grande vazio como seu único habitante. " />
+    <cutscene_text5 value="Nossos dois heróis, BF e GF, chegaram pouco tempo após o desaparecimento do \rReino, finalmente embarcando em uma viagem de férias muito merecida.\rA felicidade dos dois imediatamente desapareceu quando perceberam a\rausência de pessoas no local. Eles se perguntavam onde todos \rhaviam ido, até porque não estavam sabendo de nenhum evento\rimportante. Pelo menos, isso é o que achavam, pois agora o Castelo\rtinha muito reservado para eles." />
+    <cutscene_text6 value="Nossos dois protagonistas não conseguiam esperar e foram direto para\rinvestigar o que teria acontecido com seus amigos. \rE aqui nos encontramos de novo, dois heróis contra um mal que não conhecem,\rproblemas que aparecerem do nada mas que terão que arrumar, o ciclo de \raventuras continua seu trajeto no Reino Cogumelo!" />
+
+    <!-- Ending Special Thank You -->
+    <credits1 value="Você passou por todos os desafios de Sunday Night Plumbin !"/>
+    <credits2 value="Há 4 anos desde que esse projeto foi inicialmente começado.\nSunday Night Plumbin', um mod de FNF feito puramente por paixão da fandom e todas as criações sobre nosso encanador bigodudo favorito.\nA equipe inteira dedicou-se ao máximo nesse projeto, tudo simplesmente porque amam Mario e FNF.\nAs músicas Silent, Heartless e Poltergeist foram todas feitas sem o diretor nem saber! Tudo vindo da equipe original que queria simplesmente se divertir e fazer uma boa surpresa (Tudo foi revelado só uma semana antes do mod ser lançado!)\nCrie o que ama, divirta-se e não fique apreensivo em tentar coisas novas, isso é o que realmente importa...\nMuito obrigado por jogar, nos vemos na próxima!\n\n\nThe Plumbers / SNP Dev Team"/>
+    <credits3 value="Psst, da uma olhadinha no Cogumelo Retrô no menu de Potenciadores.\nVocê pode ter deixado algo escapar."/>
+</lang>

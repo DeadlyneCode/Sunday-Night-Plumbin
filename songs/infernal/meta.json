@@ -1,0 +1,28 @@
+{
+	"color": "#FFFFFF",
+	"customValues": {
+		"codename": "Terreur rouge, Colere noire"
+	},
+	"pause": {
+		"composer": "Gnaw",
+		"image": "demonic",
+		"imageChangeData": []
+	},
+	"opponentModeAllowed": true,
+	"icon": "demonic",
+	"difficulties": [
+		"normal"
+	],
+	"end": {
+		"endColor": "#CA3535",
+		"fadeColor": "#9F0000",
+		"startColor": "#FD0303",
+		"midColor": "#FF2C2C"
+	},
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Infernal",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}

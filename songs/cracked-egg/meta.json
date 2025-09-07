@@ -1,0 +1,43 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 110,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "Cracked Egg",
+	"icon": "victim",
+	"name": "cracked-egg",
+	"color": "#9271FD",
+	"customValues": {
+		"codename": "Omelette"
+	},
+	"end": {
+		"endColor": "#9A1F25",
+		"fadeColor": "#6A0C0F",
+		"startColor": "#AC2027",
+		"midColor": "#8B161A"
+	},
+	"pause": {
+		"composer": "Legacy",
+		"image": "mario",
+		"imageChangeData": [
+			{
+				"step": 752,
+				"newImage": "mariofall"
+			},
+			{
+				"step": 962,
+				"newImage": "egg"
+			},
+			{
+				"step": 1280,
+				"newImage": "victim"
+			}
+		]
+	}
+}

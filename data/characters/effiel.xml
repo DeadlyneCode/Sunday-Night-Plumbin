@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="-50" sprite="effeil" scale="1.7" camx="-20" camy="-300" icon="france" color="#000000" isGF="false">
+	<anim name="idle" anim="idle" x="-5"/>
+	<anim name="singUP" anim="haut" x="-15" y="202"/>
+	<anim name="singLEFT" anim="gauche" x="76" y="-3"/>
+	<anim name="singRIGHT" anim="droite" x="24" y="-3"/>
+	<anim name="singDOWN" anim="bas" x="-8" y="-3"/>
+</character>

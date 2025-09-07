@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="pov_gilbert" camx="-350" camy="150" icon="gilbert" color="#000000" holdTime="8" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="296" y="118" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="14" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="0" y="179" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="48" y="22" fps="24" loop="false"/>
+	<meta>
+		<name field="staticHoldNotes" value="false"/>
+	</meta>
+</character>

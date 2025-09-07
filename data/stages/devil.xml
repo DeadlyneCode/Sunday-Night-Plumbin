@@ -1,0 +1,48 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="1000" startCamPosY="600" folder="stages/devil/" zoom="1.25" name="devil">
+	<sprite x="-657" y="317" sprite="sky" name="sky" scroll="0.9"/>
+	<sprite x="-202" y="326" sprite="glow" name="glow" scroll="0.9">
+		<property type="int" value="0" name="blend"/>
+	</sprite>
+	<sprite x="-659" y="504" sprite="farMountainLeft" name="farMountainLeft"/>
+	<sprite x="786" y="605" sprite="farMountainRight" name="farMountainRight"/>
+	<sprite x="1288" y="334" sprite="mountain" name="mountain"/>
+	<sprite x="-655" y="891" sprite="ground" name="ground"/>
+	<sprite x="408" y="378" sprite="statueMid" name="statueMid"/>
+	<sprite x="916" y="390" sprite="statueRight" name="statueRight"/>
+	<sprite x="-113" y="380" sprite="statueLeft" name="statueLeft"/>
+
+	<sprite x="1500" sprite="toad march" y="740" scale="0.7" name="toad marchr1">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+
+	<sprite x="1500" sprite="toad march" y="820" scale="0.7" name="toad marchrm">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+	
+	<sprite x="-600" sprite="toad march" y="740" scale="0.7" name="toad marchl1" flipX="true">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+
+	<sprite x="-600" sprite="toad march" y="820" scale="0.7" name="toad marchlm" flipX="true">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+
+	<boyfriend x="505" camxoffset="-75" y="435" camyoffset="100" scale="0.45"/>
+	<dad x="-75" camxoffset="100" y="684" camyoffset="100" scale="0.45"/>
+	<girlfriend x="280" y="390" scrollx="1" scrolly="1" scale="0.45" camxoffset="-160" camyoffset="160" alpha="0"/>
+
+	<sprite x="1500" sprite="toad march" y="900" scale="0.7" name="toad marchr2">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+
+	<sprite x="-600" sprite="toad march" y="900" scale="0.7" name="toad marchl2" flipX="true">
+		<anim loop="true" x="0" anim="toad march" fps="24" y="0" type="loop" name="walk"/>
+	</sprite>
+
+	<sprite name="lum"  scalex="3.75"  scaley="3.35"  x="-610" y="100"   sprite="lum" >
+	<property name="alpha" type="float" value="0.4"/>
+	<property name="blend" type="int" value="0" />
+	</sprite>
+
+</stage>

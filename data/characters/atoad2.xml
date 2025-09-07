@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="amatoad" camx="-400" camy="130" icon="amalgam" color="#C0977E" holdTime="15.1" isGF="false">
+	<anim name="idle" anim="idle" x="78" y="-100"/>
+	<anim name="singLEFT" anim="gauche" x="213" y="-10"/>
+	<anim name="singDOWN" anim="bas" x="130" y="-24"/>
+	<anim name="singUP" anim="haut" x="119" y="255"/>
+	<anim name="singRIGHT" anim="droite" x="79" y="-102"/>
+</character>
