@@ -689,7 +689,7 @@ function update(elapsed) {
 			closeToPoint.y *= FlxG.height;
 		}
 
-		loading.data = {closeToPoint: closeToPoint, currentMusic: currentMusic};
+		loading.data = {closeToPoint: closeToPoint, currentMusic: currentMusic, followText: objects.scoreTexts[Freeplay_curSelected]};
 		openSubState(loading);
 		FlxTween.cancelTweensOf(currentMusic);
 		FlxTween.tween(currentMusic, {volume: 0.5}, 1, {ease: FlxEase.sineOut});

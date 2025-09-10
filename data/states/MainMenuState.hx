@@ -143,6 +143,13 @@ function create() {
 		galleryBtn.scrollFactor.set(0, 0);
 		FlxTween.tween(galleryBtn, {x: (250 - galleryBtn.width) / 2}, 1.0, {ease: FlxEase.cubeOut, startDelay: 0.2});
 	}
+
+	var text = new FlxText(10, -30, FlxG.width, "SNP v" + snpVersion, 64);
+	text.setFormat(Paths.font("U.ttf"), 24, FlxColor.WHITE, "left");
+	text.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 2.2);
+	add(text);
+	text.scrollFactor.set(0, 0);
+	FlxTween.tween(text, {y: 5}, 1.0, {ease: FlxEase.cubeOut, startDelay: 0.2});
 }
 
 var realPos:FlxPoint = FlxPoint.get();

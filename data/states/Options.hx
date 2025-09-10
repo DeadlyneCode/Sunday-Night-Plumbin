@@ -25,6 +25,7 @@ var curSelected = 0;
 var prevMenuMusic = FlxG.save.data.menuMusicType;
 function create()
 {
+	FlxG.camera.bgColor = 0xFF000000;
 	if (FlxG.sound.music == null || !FlxG.sound.music.playing)
 	{
 		CoolUtil.playMusic(Paths.music(menuMusic), true, 1, true);

@@ -74,7 +74,7 @@ var alphaShit =1;
 var timerAlpha =10;
 var alphaStuff;
 function postUpdate(elapsed:Float) {
-    if (FlxG.keys.justPressed.SPACE && numToShoot>=10 && isKatana){
+    if (controls.getJustPressed("dodge") && numToShoot>=10 && isKatana){
         timer=0.4;
         numToShoot = 0;
         boyfriend.playAnim("shoot");

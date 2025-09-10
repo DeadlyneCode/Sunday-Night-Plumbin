@@ -1,10 +1,11 @@
 import Mario;
-import flixel.math.FlxRect;
-import flixel.math.FlxPoint;
-import funkin.editors.ui.UIState;
 import flixel.group.FlxSpriteGroup;
-import funkin.backend.system.Controls.Control;
 import flixel.input.actions.FlxActionInput.FlxInputDevice;
+import flixel.math.FlxPoint;
+import flixel.math.FlxRect;
+import funkin.backend.scripting.events.DrawEvent;
+import funkin.backend.system.Controls.Control;
+import funkin.editors.ui.UIState;
 
 function makeSpriteSheet() {
     var spr = new FunkinSprite();
@@ -46,11 +47,12 @@ function makeSpriteSheet() {
 
 var mario;
 
-function update() {
+function update(elapsed) {
     var marioCam = mario.getCam();
     var marioCamPos = marioCam.pos;
     FlxG.camera.scroll.set(marioCamPos.x, marioCamPos.y);
     FlxG.camera.zoom = marioCam.zoom;
+    mario.update(elapsed);
 
     if (controls.DEV_ACCESS)
         FlxG.switchState(new UIState(true, "smbEditor"));
@@ -106,8 +108,7 @@ function onImmortalPipe() {
     }
 }
 
-var blockGroup:FlxSpriteGroup = new FlxSpriteGroup();
-var pipeBlockGroup:FlxSpriteGroup = new FlxSpriteGroup();
+var blockPositions = [];
 
 function getInputsFor(control:Control):Array<Int>
 {
@@ -122,6 +123,7 @@ function getInputsFor(control:Control):Array<Int>
 }
 
 function create() {
+    FlxG.camera.bgColor = 0xFFFFA200;
     mario = new Mario(0, 0);
     FlxG.sound.playMusic(Paths.music("smb"));
     
@@ -133,15 +135,12 @@ function create() {
         for (j in 0...levelData[i].length)
         {
             var blockName = levelData[i][j];
-            var spr = makeSpriteSheet();
+            if (blockName == "sky") continue;
             var blockPos = mario.getBlockPos(j, i);
-            spr.x = blockPos.x;
-            spr.y = blockPos.y;
-            spr.animation.play(blockName);
-            (StringTools.contains(blockName, "pipe_") ? pipeBlockGroup : blockGroup).add(spr);
+            blockPositions.push([blockPos, blockName, StringTools.contains(blockName, "pipe_")]);
         }
     }
-
+    
     var keybinds = {
         left: getInputsFor(Control.LEFT),
         down: getInputsFor(Control.DOWN),
@@ -151,14 +150,49 @@ function create() {
         run: [FlxKey.SHIFT, FlxKey.CONTROL],
         die: getInputsFor(Control.RESET),
     }
-
-    add(blockGroup);
-
+    
     var spawnPoint = mario.getBlockPos(3.5, 12);
     mario.spawn(spawnPoint, levelData, eventBlocks, keybinds);
-    add(mario);
-
-    add(pipeBlockGroup);
+    blockSize = mario.getBlockSize();
+    drawingBlock = makeSpriteSheet();
 
 	addMenuShaders();
+}
+
+var blockSize = 0;
+var drawingBlock;
+var _unDrawnSprs = [];
+function shouldShowBlock(pos) { //lags the game for some reason
+    return pos + blockSize > FlxG.camera.scroll.x && pos < FlxG.camera.scroll.x + FlxG.camera.width;
+}
+
+function draw(event:DrawEvent) {
+    _unDrawnSprs.resize(0);
+    var sprPos = 0;
+    for (drawData in blockPositions)
+    {
+        var blockPos = drawData[0];
+
+        //if (!shouldShowBlock(blockPos.x)) continue;
+
+        var drawOnTop = drawData[2];
+        if (!drawOnTop) {
+
+            var blockName = drawData[1];
+            drawingBlock.setPosition(blockPos.x, blockPos.y);
+            drawingBlock.animation.play(blockName);
+            drawingBlock.draw();
+        } else
+            _unDrawnSprs.push(drawData);
+    }
+    mario.draw();
+    for (drawData in _unDrawnSprs)
+    {
+        var blockPos = drawData[0];
+        var blockName = drawData[1];
+
+        drawingBlock.setPosition(blockPos.x, blockPos.y);
+        drawingBlock.animation.play(blockName);
+        drawingBlock.draw();
+    }
 }

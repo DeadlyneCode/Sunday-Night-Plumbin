@@ -20,6 +20,7 @@ using StringTools;
 static var goodCommitNumba = "9757b00";
 static var goodVersion = "1.0.1";
 static var cneDownloadLink = "https://github.com/CodenameCrew/CodenameEngine/releases/tag/v1.0.1";
+static var snpVersion = "1.0.1";
 
 // Use when necessary
 static function upscaleText(text, upscaleAmt)

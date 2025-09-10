@@ -39,6 +39,8 @@ function getColorData(color)
     return data;
 }
 
+var followText = null;
+var songName;
 function create()
 {
 	camera = new FlxCamera();
@@ -49,6 +51,7 @@ function create()
 
     var closeToPoint = data.closeToPoint;
     var currentMusic = data.currentMusic;
+    followText = data.followText;
 
 	var a = new CustomShader("circle");
 	a.data.uResolution.value = [FlxG.width, FlxG.height];
@@ -94,7 +97,7 @@ function create()
     skewShader.data.vertexXOffset.value = [0, 0, -5, -5];
     skewShader.data.vertexYOffset.value = [0, -100, 0, -100];
 
-    var songName = new FlxText(100, 270, FlxG.width, chart.meta.displayName);
+    songName = new FlxText(100, 270, FlxG.width, followText.text);
     songName.setFormat(Paths.font("WonderBold.ttf"), 98, FlxColor.WHITE, "left", "outline", FlxColor.BLACK);
     songName.antialiasing = true;
     add(songName);
@@ -163,6 +166,11 @@ function create()
     });
 
 	FlxG.sound.play(Paths.sound("songStart"), 2);
+}
+
+function update(elapsed:Float) {
+    if (followText != null && songName != null && songName.text != followText.text)
+        songName.text = followText.text;
 }
 
 function onClose() {

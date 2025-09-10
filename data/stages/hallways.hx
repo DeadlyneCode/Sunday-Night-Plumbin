@@ -13,10 +13,11 @@ function onCameraMove() {
 }
 
 function postUpdate(elapsed:Float) {
-	if (FlxG.save.data.saturation == true)
+	if (FlxG.save.data.tv == true){
 		time += elapsed;
         d.iTime = time;
         c.iTime = time;
+    }
 }
 
 function postCreate() {

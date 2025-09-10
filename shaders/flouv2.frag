@@ -1,5 +1,3 @@
-//shader from shadertoy : https://www.shadertoy.com/view/Xltfzj
-
 #pragma header
 vec2 uv = openfl_TextureCoordv.xy;
 vec2 fragCoord = openfl_TextureCoordv * openfl_TextureSize;
@@ -15,28 +13,32 @@ void mainImage()
 {
     float Pi = 6.28318530718; // Pi*2
     
-    // GAUSSIAN BLUR SETTINGS {{{
-    float Directions = 16.0; // BLUR DIRECTIONS (Default 16.0 - More is better but slower)
-    float Quality = 3.0; // BLUR QUALITY (Default 4.0 - More is better but slower)
-    // GAUSSIAN BLUR SETTINGS }}}
+    // GAUSSIAN BLUR SETTINGS
+    float Directions = 16.0; 
+    float Quality    = 3;   // make it an integer for stability
    
-    vec2 Radius = Size/iResolution.xy;
+    vec2 Radius = Size / iResolution.xy;
+    vec2 uv = fragCoord / iResolution.xy;
     
-    // Normalized pixel coordinates (from 0 to 1)
-    vec2 uv = fragCoord/iResolution.xy;
-    // Pixel colour
-    vec4 Color = texture(iChannel0, uv);
-    
+    vec4 sum = vec4(0.0);
+    float count = 0.0;
+
+    // Always add center pixel once
+    sum += texture(iChannel0, uv);
+    count += 1.0;
+
     // Blur calculations
-    for( float d=0.0; d<Pi; d+=Pi/Directions)
+    for(float d = 0.0; d < Pi; d += Pi / Directions)
     {
-		for(float i=1.0/Quality; i<=1.0; i+=1.0/Quality)
+        for(float j = 1.0; j <= Quality; j += 1.0)
         {
-			Color += texture( iChannel0, uv+vec2(cos(d),sin(d))*Radius*i);		
+            float scale = j / Quality; // normalized step [0..1]
+            vec2 offset = vec2(cos(d), sin(d)) * Radius * scale;
+            sum += texture(iChannel0, uv + offset);
+            count += 1.0;
         }
     }
-    
-    // Output to screen
-    Color /= Quality * Directions - 15.0;
-    fragColor =  Color;
+
+    // Average properly
+    fragColor = sum / count;
 }

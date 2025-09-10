@@ -30,7 +30,7 @@ if (FlxG.save.data.glow == true) {
 }
 
     if (FlxG.save.data.tv == true)
-        d = new CustomShader('ntsc');
+        d = new CustomShader('ntscc');
         camGame.addShader(d);
 }
 
