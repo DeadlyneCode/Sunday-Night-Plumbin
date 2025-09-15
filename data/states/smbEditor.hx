@@ -38,6 +38,7 @@ function createGrid(CellWidth:Int, CellHeight:Int, Width:Int, Height:Int):Bitmap
 var smbCam:FlxCamera;
 var uiCamera:FlxCamera;
 function create() {
+    FlxG.camera.bgColor = 0xFFFFA200;
 	smbCam = FlxG.camera;
 	smbCam.zoom = 0.88;
     smbCam.scroll.set(87, -50);
@@ -90,21 +91,20 @@ function create() {
             sprites[i].x = startX + (i * (sprites[i].width + padding));
         }
     }
-    
 
     var anims = [
         "ground", "block", "usedblock", "cloud_1", "cloud_2",
         "cloud_3", "cloud_4", "cloud_5", "cloud_6", "solidblock",
-        "pipe_1", "pipe_2", "pipe_3", "pipe_4", "itemblock",
-        "bush1_1", "bush1_2", "bush1_3", "bush1_4", "bush1_5",
-        "bush1_6", "bush2_1", "bush2_2", "bush2_3", "sky",
-        "event_block", "barrier"
+        "pipe_1", "pipe_2", "pipe_3", "pipe_4", "arrow_1",
+        "arrow_2", "arrow_3", "arrow_4", "bush1_1", "bush1_2",
+        "bush1_3", "bush1_4", "bush1_5", "bush1_6", "bush2_1",
+        "bush2_2", "bush2_3", "sky", "event_block", "barrier"
     ];
     
     for (i in 0...anims.length)
     {
-        var boxHeight = itemSelect.height * 0.7;
-        var box = new FunkinSprite(0, itemSelect.y + ((itemSelect.height * 0.22) / 2)).makeGraphic(boxHeight, boxHeight, 0x40FFFFFF);
+        var boxHeight = itemSelect.height * 0.62;
+        var box = new FunkinSprite(0, itemSelect.y + ((itemSelect.height * 0.4) / 2)).makeGraphic(boxHeight, boxHeight, 0x40FFFFFF);
         box.cameras = [uiCamera];
         box.extra["id"] = i;
         box.extra["anim"] = anims[i];
@@ -119,7 +119,7 @@ function create() {
         var item = makeSpriteSheet();
         item.animation.play(anims[i]);
         item.cameras = [uiCamera];
-        var blockScale = 0.7;
+        var blockScale = 0.62;
         item.scale.set(getBlockScale() * blockScale, getBlockScale() * blockScale);
         item.updateHitbox();
         item.x = box.x + ((box.width - item.width) / 2);
@@ -163,6 +163,11 @@ function create() {
         }
     }
 }
+
+function destroy() {
+    FlxG.camera.bgColor = 0xFF000000;
+}
+
 var boxSprites = [];
 var mouseBlock:FlxSprite;
 
@@ -184,19 +189,22 @@ function makeSpriteSheet() {
     spr.animation.add("pipe_2", [11], 0, false);
     spr.animation.add("pipe_3", [12], 0, false);
     spr.animation.add("pipe_4", [13], 0, false);
-    spr.animation.add("itemblock", [14, 15, 16, 15, 14, 14, 14], 6,  true);
-    spr.animation.add("bush1_1", [17], 0, false);
-    spr.animation.add("bush1_2", [18], 0, false);
-    spr.animation.add("bush1_3", [19], 0, false);
-    spr.animation.add("bush1_4", [20], 0, false);
-    spr.animation.add("bush1_5", [21], 0, false);
-    spr.animation.add("bush1_6", [22], 0, false);
-    spr.animation.add("bush2_1", [23], 0, false);
-    spr.animation.add("bush2_2", [24], 0, false);
-    spr.animation.add("bush2_3", [25], 0, false);
-    spr.animation.add("sky", [26], 0, false);
-    spr.animation.add("event_block", [27], 0, false);
-    spr.animation.add("barrier", [28], 0, false);
+    spr.animation.add("arrow_1", [14], 0, false);
+    spr.animation.add("arrow_2", [15], 0, false);
+    spr.animation.add("arrow_3", [16], 0, false);
+    spr.animation.add("arrow_4", [17], 0, false);
+    spr.animation.add("bush1_1", [18], 0, false);
+    spr.animation.add("bush1_2", [19], 0, false);
+    spr.animation.add("bush1_3", [20], 0, false);
+    spr.animation.add("bush1_4", [21], 0, false);
+    spr.animation.add("bush1_5", [22], 0, false);
+    spr.animation.add("bush1_6", [23], 0, false);
+    spr.animation.add("bush2_1", [24], 0, false);
+    spr.animation.add("bush2_2", [25], 0, false);
+    spr.animation.add("bush2_3", [26], 0, false);
+    spr.animation.add("sky", [27], 0, false);
+    spr.animation.add("event_block", [28], 0, false);
+    spr.animation.add("barrier", [29], 0, false);
 
     spr.scale.set(getBlockScale(), getBlockScale());
     spr.updateHitbox();

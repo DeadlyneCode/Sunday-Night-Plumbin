@@ -20,7 +20,25 @@ using StringTools;
 static var goodCommitNumba = "9757b00";
 static var goodVersion = "1.0.1";
 static var cneDownloadLink = "https://github.com/CodenameCrew/CodenameEngine/releases/tag/v1.0.1";
-static var snpVersion = "1.0.1";
+static var snpVersion = "1.0.2";
+
+static function getColorData(color)
+{
+    var data = {};
+
+    data.color = color;
+
+    data.red = (color >> 16) & 0xff;
+    data.green = (color >> 8) & 0xff;
+    data.blue = color & 0xff;
+    data.alpha = (color >> 24) & 0xff;
+
+    data.redFloat = data.red / 255;
+    data.greenFloat = data.green / 255;
+    data.blueFloat = data.blue / 255;
+    data.alphaFloat = data.alpha / 255;
+    return data;
+}
 
 // Use when necessary
 static function upscaleText(text, upscaleAmt)

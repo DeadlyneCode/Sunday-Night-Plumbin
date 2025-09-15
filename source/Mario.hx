@@ -23,6 +23,8 @@ class Mario extends FlxSprite {
     private var eventBlocks:Array<Dynamic>;
     private var died:Bool = false;
     private var collidableBlocks:Array<String> = ["ground", "itemblock", "usedblock", "block", "solidblock", "pipe_1", "pipe_2", "pipe_3", "pipe_4", "barrier"];
+    public var isEaracheDeath = false;
+    public var disableControls = false;
 
     private var spr:FunkinSprite;
 
@@ -86,11 +88,10 @@ class Mario extends FlxSprite {
         return levelData[Std.int(blockPos.y)][Std.int(blockPos.x)];
     }
 
-    private var camX:Float = 0;
-    private var camY:Float = 0;
+    public var camPos:FlxPoint = FlxPoint.get();
     private var camZoom:Float = 1;
     public function getCam() {
-        return {pos: FlxPoint.get(camX, camY), zoom: camZoom};
+        return {pos: camPos, zoom: camZoom};
     }
 
     private function updateHorizontalMovement(left:Bool, right:Bool, run:Bool, elapsed:Float):Void {
@@ -200,39 +201,40 @@ class Mario extends FlxSprite {
         FlxG.sound.music.pause();
         FlxG.sound.play(Paths.sound("smb_died"));
 
-        new FlxTimer().start(1.5, function(_) {
-            FlxTween.num(camX, Math.max(-150, x - FlxG.width / 2), 2, {ease: FlxEase.quadOut}, (t) -> {
-                camX = t;
-            });
-            FlxTween.num(camY, Math.min(70, y - FlxG.height / 2), 2, {ease: FlxEase.quadOut}, (t) -> {
-                camY = t;
-            });
-            FlxTween.num(camZoom, 1.3, 2, {ease: FlxEase.quadOut}, (t) -> {
-                camZoom = t;
-            });
-        });
-
-        new FlxTimer().start(5, function(_) {
-            var maltigi = new FlxSprite(0, 0).loadGraphic(Paths.image('states/freeplay/paintings/Earache'));
-            maltigi.scale.set(0, 0);
-            maltigi.updateHitbox();
-            maltigi.scrollFactor.set();
-            maltigi.screenCenter();
-            FlxG.state.add(maltigi);
-            FlxTween.tween(maltigi, {"scale.x": 0.35, "scale.y": 0.35}, 0.2, {ease: FlxEase.circOut});
-
-            new FlxTimer().start(0.2 + 0.1, function(_) {
-                FlxG.sound.play(Paths.sound("scream"), 1).persist = true;
-                FlxG.camera.shake(0.025, 3, true);
-
-                new FlxTimer().start(3, function(_) {
-                    FlxG.save.data.curPowerUp = 0;
-                    FlxG.save.flush();
-                    PlayState.loadSong("Earache", "normal");
-                    FlxG.switchState(new PlayState());
+        if (isEaracheDeath) {
+            new FlxTimer().start(1.5, function(_) {
+                FlxTween.tween(camPos, {x: Math.max(-150, x - FlxG.width / 2), y: Math.min(70, y - FlxG.height / 2)}, 2, {ease: FlxEase.quadOut});
+                FlxTween.num(camZoom, 1.3, 2, {ease: FlxEase.quadOut}, (t) -> {
+                    camZoom = t;
                 });
             });
-        });
+
+            new FlxTimer().start(5, function(_) {
+                var maltigi = new FlxSprite(0, 0).loadGraphic(Paths.image('states/freeplay/paintings/Earache'));
+                maltigi.scale.set(0, 0);
+                maltigi.updateHitbox();
+                maltigi.scrollFactor.set();
+                maltigi.screenCenter();
+                FlxG.state.add(maltigi);
+                FlxTween.tween(maltigi, {"scale.x": 0.35, "scale.y": 0.35}, 0.2, {ease: FlxEase.circOut});
+
+                new FlxTimer().start(0.2 + 0.1, function(_) {
+                    FlxG.sound.play(Paths.sound("scream"), 1).persist = true;
+                    FlxG.camera.shake(0.025, 3, true);
+
+                    new FlxTimer().start(3, function(_) {
+                        FlxG.save.data.curPowerUp = 0;
+                        FlxG.save.flush();
+                        PlayState.loadSong("Earache", "normal");
+                        FlxG.switchState(new PlayState());
+                    });
+                });
+            });
+        } else {
+            new FlxTimer().start(5, () -> {
+                FlxG.resetState();
+            });
+        }
         died = true;
     }
 
@@ -268,7 +270,7 @@ class Mario extends FlxSprite {
             return;
         }
 
-        if (FlxG.keys.anyPressed(keybinds.die) || y >= FlxG.height) {
+        if ((FlxG.keys.anyPressed(keybinds.die) || y >= FlxG.height) && !disableControls) {
             die();
             super.update(elapsed);
             spr.update(elapsed);
@@ -286,6 +288,9 @@ class Mario extends FlxSprite {
         var run = FlxG.keys.anyPressed(keybinds.run);
 
         checkEventBlockCollision(moveLeft, down, up, moveRight, jump);
+
+        if (disableControls)
+            moveLeft = moveRight = down = up = jump = run = false;
 
         updateHorizontalMovement(moveLeft, moveRight, run, elapsed);
         updateJump(jump, elapsed);
@@ -323,11 +328,13 @@ class Mario extends FlxSprite {
             }
         }
 
-        var newCamPos = (x - width - (FlxG.width / 2.5));
-        if (camX < newCamPos) {
-            camX = Math.max(0, newCamPos);
+        if (!disableControls) {
+            var newCamPos = (x - width - (FlxG.width / 2.5));
+            if (camPos.x < newCamPos) {
+                camPos.x = Math.max(0, newCamPos);
+            }
+            x = Math.max(FlxG.camera.scroll.x, x);
         }
-        x = Math.max(FlxG.camera.scroll.x, x);
 
         super.update(elapsed);
     }

@@ -25,19 +25,22 @@ function makeSpriteSheet() {
     spr.animation.add("pipe_2", [11], 0, false);
     spr.animation.add("pipe_3", [12], 0, false);
     spr.animation.add("pipe_4", [13], 0, false);
-    spr.animation.add("itemblock", [14, 15, 16, 15, 14, 14, 14], 6,  true);
-    spr.animation.add("bush1_1", [17], 0, false);
-    spr.animation.add("bush1_2", [18], 0, false);
-    spr.animation.add("bush1_3", [19], 0, false);
-    spr.animation.add("bush1_4", [20], 0, false);
-    spr.animation.add("bush1_5", [21], 0, false);
-    spr.animation.add("bush1_6", [22], 0, false);
-    spr.animation.add("bush2_1", [23], 0, false);
-    spr.animation.add("bush2_2", [24], 0, false);
-    spr.animation.add("bush2_3", [25], 0, false);
-    spr.animation.add("sky", [26], 0, false);
-    spr.animation.add("event_block", [26], 0, false);
-    spr.animation.add("barrier", [26], 0, false);
+    spr.animation.add("arrow_1", [14], 0, false);
+    spr.animation.add("arrow_2", [15], 0, false);
+    spr.animation.add("arrow_3", [16], 0, false);
+    spr.animation.add("arrow_4", [17], 0, false);
+    spr.animation.add("bush1_1", [18], 0, false);
+    spr.animation.add("bush1_2", [19], 0, false);
+    spr.animation.add("bush1_3", [20], 0, false);
+    spr.animation.add("bush1_4", [21], 0, false);
+    spr.animation.add("bush1_5", [22], 0, false);
+    spr.animation.add("bush1_6", [23], 0, false);
+    spr.animation.add("bush2_1", [24], 0, false);
+    spr.animation.add("bush2_2", [25], 0, false);
+    spr.animation.add("bush2_3", [26], 0, false);
+    spr.animation.add("sky", [27], 0, false);
+    spr.animation.add("event_block", [27], 0, false);
+    spr.animation.add("barrier", [27], 0, false);
 
     spr.scale.set(mario.getBlockScale(), mario.getBlockScale());
     spr.updateHitbox();
@@ -57,7 +60,6 @@ function update(elapsed) {
     if (controls.DEV_ACCESS)
         FlxG.switchState(new UIState(true, "smbEditor"));
 }
-
 
 function convertDataFileToLevelData()
 {
@@ -88,13 +90,108 @@ function convertDataFileToLevelData()
     return [levelData, eventBlocks];
 }
 
+var shouldStartMaltigi = true;
+function setEaracheRun()
+{
+    if (!shouldStartMaltigi) return;
+    shouldStartMaltigi = false;
+
+    mario.disableControls = true;
+    var data = getColorData(FlxG.camera.bgColor);
+    var wantedColor = getColorData(0xFF010101);
+
+    var curRed = data.redFloat;
+    var curGreen = data.greenFloat;
+    var curBlue = data.blueFloat;
+
+    var twnDur = 5;
+    var tweenEase = FlxEase.quadInOut;
+    FlxTween.num(curRed, wantedColor.redFloat, twnDur, {ease: tweenEase}, (v) -> {
+        curRed = v;
+    });
+    FlxTween.num(curGreen, wantedColor.greenFloat, twnDur, {ease: tweenEase}, (v) -> {
+        curGreen = v;
+    });
+    FlxTween.num(curBlue, wantedColor.blueFloat, twnDur, {ease: tweenEase}, (v) -> {
+        curBlue = v;
+        FlxG.camera.bgColor = FlxColor.fromRGBFloat(curRed, curGreen, curBlue);
+    });
+
+    FlxTween.tween(FlxG.sound.music, {volume: 0}, 2, {ease: FlxEase.quadInOut});
+    new FlxTimer().start(2.5, () -> {
+        FlxTween.tween(mario.camPos, {x: mario.getBlockPos(65, 0).x}, 4.5, {ease: FlxEase.quartInOut});
+        new FlxTimer().start(5.5, () -> {
+            var maltigi = new FlxSprite(0, 0).loadGraphic(Paths.image('states/freeplay/paintings/Earache'));
+            maltigi.scale.set(0.25, 0.25);
+            maltigi.updateHitbox();
+            var maltiWidth = maltigi.width;
+            maltigi.scale.set(0, 0);
+            maltigi.updateHitbox();
+            maltigi.x = mario.getBlockPos(75, 0).x;
+            maltigi.screenCenter(FlxAxes.Y);
+            maltigi.y += 50; 
+            add(maltigi);
+            FlxTween.tween(maltigi, {"scale.x": 0.25, "scale.y": 0.25}, 0.2, {ease: FlxEase.circOut});
+
+            new FlxTimer().start(0.2 + 0.1, function(_) {
+                FlxG.sound.play(Paths.sound("scream"), 0.25).persist = true;
+                FlxG.sound.playMusic(Paths.music("smb-run"));
+                FlxG.camera.shake(0.0125, 3, true);
+
+                new FlxTimer().start(3, () -> {
+                    var t = null;
+                    FlxTween.tween(mario.camPos, {x: mario.x - mario.width - (FlxG.width / 2.5)}, 0.5, {ease: FlxEase.quadInOut, onComplete: () ->  {
+                        mario.disableControls = false;
+                    }});
+
+                    var runText = new FunkinSprite(0, 0, Paths.image("states/retro/RUN-" + FlxG.save.data.language));
+                    runText.addAnim("idle", "idle", 24, true);
+                    runText.playAnim("idle");
+                    runText.screenCenter(FlxAxes.X);
+                    runText.y = 50;
+                    runText.scrollFactor.set();
+                    add(runText);
+                    runText.alpha = 0.001;
+                    runText.moves = true;
+
+                    FlxTween.tween(runText, {alpha: 1}, 0.5, {ease: FlxEase.quadInOut});
+
+                    var fuckinDie = function()
+                    {
+                        if (mario.isEaracheDeath) return;
+                        mario.isEaracheDeath = true;
+                        mario.die();
+                        FlxG.sound.music.play();
+                        FlxTween.tween(FlxG.sound.music, {volume: 0.4}, 0.5);
+                        mario.spr.alpha = 0;
+
+                        runText.acceleration.y = FlxG.random.int(200, 300);
+                        runText.angularVelocity = -(FlxG.random.int(10, -10) * 3);
+                        runText.velocity.set(FlxG.random.float(-5, 5), -FlxG.random.int(140, 160));
+                    };
+                    t = FlxTween.tween(maltigi, {x: mario.getBlockPos(164.25, 0).x}, 6.5, {onUpdate: () -> {
+                        var doesBFTouch = ((maltigi.x + maltiWidth) - (mario.spr.x + mario.spr.width)) >= 300;
+                        if (doesBFTouch) {
+                            //t.cancel();
+                            fuckinDie();
+                        }
+                    }, onComplete: fuckinDie});
+                });
+            });
+        });
+    });
+}
+
+function destroy() {
+    FlxG.camera.bgColor = 0xFF000000;
+}
+
 function onImmortalPipe() {
     if (!mario.died && mario.physicsVelocity.y == 0)
     {
         mario.died = true;
-        var newXPos = mario.getBlockPos(46.5, 0).x; //hardcoded sorry
-        var newYPos = mario.y + (mario.height * 2);
-
+        var newXPos = mario.getBlockPos(59.5, 0).x; //hardcoded sorry
+        var newYPos = mario.y + (mario.height * 1.5);
 
         FlxTween.tween(mario, {x: newXPos}, 0.5, {onComplete: function (_) {
 		    FlxG.sound.play(Paths.sound('retro/pipe'));
@@ -174,11 +271,11 @@ function draw(event:DrawEvent) {
         var blockPos = drawData[0];
 
         //if (!shouldShowBlock(blockPos.x)) continue;
+        var blockName = drawData[1];
+        if (blockName == null) continue;
 
         var drawOnTop = drawData[2];
         if (!drawOnTop) {
-
-            var blockName = drawData[1];
             drawingBlock.setPosition(blockPos.x, blockPos.y);
             drawingBlock.animation.play(blockName);
             drawingBlock.draw();
